@@ -1,0 +1,11 @@
+body:has(dialog.modal) {
+  overflow: hidden;
+}
+
+.modal {
+  @apply fixed inset-0   rounded-xl backdrop:bg-gray-800/60;
+}
+
+.modal > div {
+  @apply relative flex w-full max-w-full flex-col px-2 py-3 shadow-[0_3px_6px_0_#00000029] sm:w-[400px] 2xl:w-[504px] 2xl:px-4 2xl:py-4;
+}

@@ -1,0 +1,90 @@
+.container {
+  @apply mb-2  grid min-w-[100%] grid-flow-col grid-cols-12 rounded-2xl  bg-secondary  shadow-md;
+}
+.infoSection {
+  @apply col-span-9  grid grid-flow-row  border-e-[1px] pt-3;
+}
+.legContainer {
+  @apply grid  grid-flow-col grid-cols-12 items-center gap-1 px-3 py-1 md:gap-4;
+}
+.image{
+  @apply h-24 object-contain resize
+}
+
+.heroText {
+  @apply text-[9px] font-medium text-secondary sm:text-[10px] md:text-sm;
+}
+.subText {
+  @apply text-[9px] font-light text-seventh md:text-base;
+}
+.airlineName {
+  @apply text-[9px] font-light text-seventh md:text-sm;
+}
+.description {
+  @apply text-[9px] font-light text-seventh md:text-xs;
+}
+.baggageDetails {
+  @apply flex items-center  self-end border-t-[1px] p-[1px] px-2 text-xs  font-medium text-secondary md:p-2;
+}
+.baggageNo {
+  @apply me-[0.75px] ms-2 flex items-center px-6 text-[9px] first:border-e-2 md:text-sm;
+}
+.baggageTitle {
+  @apply text-[8px] font-medium text-seventh md:text-sm;
+}
+.baggageIcon {
+  @apply ms-1;
+}
+.imageContainer {
+  @apply col-span-4  max-h-12 items-center justify-center  gap-1 ps-1 md:flex;
+}
+.dataContainer {
+  @apply col-span-8 flex flex-col;
+}
+.header {
+  @apply text-xs font-medium capitalize text-secondary md:text-base;
+}
+.bookingSite {
+  @apply my-1 text-sm font-light md:text-base;
+}
+
+.bottomIcons {
+  @apply mb-1 mt-2.5 flex flex-col items-start justify-start text-xs md:flex-row md:items-center;
+}
+.iconSection {
+  @apply me-4 flex items-center text-[10px] md:text-xs;
+}
+.icon {
+  @apply me-[2px] mt-[2px] text-sixth;
+}
+.otherText {
+  @apply -mt-0.5 text-[8px] font-light text-seventh lg:-mt-1.5 lg:text-[10px];
+}
+
+.priceSection {
+  @apply col-span-3 flex flex-col items-center justify-center px-1 py-4 md:px-2;
+}
+.price {
+  @apply text-xs font-bold text-secondary md:text-2xl;
+}
+.totalPrice {
+  @apply mb-1 text-[8px] font-medium text-secondary md:text-xs;
+}
+.person {
+  @apply block text-[8px] font-medium text-secondary md:inline md:text-sm;
+}
+.priceInfo {
+  @apply my-[1px] text-[8px] font-light text-primary md:text-sm;
+}
+.bookingSitesSection {
+  @apply flex w-full flex-col  items-start;
+}
+.otherSites {
+  @apply text-[8px] text-seventh  lg:text-[10px];
+}
+.button {
+  @apply mt-5 w-full justify-center rounded-lg border-fifth bg-fifth p-1 text-center  text-[8px] text-primary  md:text-base;
+}
+.button:hover {
+  @apply text-fourthiary;
+}

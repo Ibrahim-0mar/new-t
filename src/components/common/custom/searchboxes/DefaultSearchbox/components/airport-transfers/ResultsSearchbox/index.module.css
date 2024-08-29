@@ -1,0 +1,51 @@
+.container {
+  @apply h-auto  hidden items-center border-t-[1px] bg-secondary px-[3%] pb-4 pt-5 lg:flex;
+}
+.topSectionContainer {
+  @apply flex w-full  justify-between;
+}
+.tabsContainer {
+  @apply flex;
+}
+.tab {
+  @apply m-2 mb-4 flex h-fit items-center rounded-3xl bg-tertiary px-5 py-2  text-base font-normal;
+}
+.activeTab {
+  @apply m-2 flex h-fit items-center rounded-3xl bg-fifth bg-opacity-60 px-5 py-2 text-base  font-normal;
+}
+.tripTypeContainer {
+  @apply me-2 flex  items-center rounded-full bg-primary text-base;
+}
+.cabinTravellersSection {
+  @apply mx-1 flex w-[12%] items-center;
+}
+.locationContainer {
+  @apply flex w-[29%] flex-col;
+}
+.locationInput {
+  @apply relative  me-1 flex w-full;
+}
+.error {
+  @apply mt-1  text-sm text-error;
+}
+.swapLocationsBtn {
+  @apply absolute z-30 h-fit self-center rounded-full bg-secondary p-2 shadow-[0px_3px_9px_0px_rgba(0,0,0,0.16)] ltr:-right-5 rtl:-left-5;
+}
+.datesContainer {
+  @apply mx-1 w-[28%];
+}
+.addDateContainer {
+  @apply flex max-h-[50px] w-[24%] items-center justify-center rounded-full border-[0.5px] border-primary py-1  text-sm;
+}
+.contentContainer {
+  @apply flex w-full;
+}
+.directOnly {
+  @apply m-2 flex items-center justify-start self-start  p-3;
+}
+.directOnlyText {
+  @apply ms-2 text-sm font-normal text-primary;
+}
+.searchButton {
+  @apply mx-2 w-[12%] justify-center rounded-full bg-fifth px-4 py-2 text-center text-lg  font-semibold text-primary hover:text-fourthiary;
+}

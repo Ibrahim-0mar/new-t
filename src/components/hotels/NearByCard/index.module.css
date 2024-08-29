@@ -1,0 +1,38 @@
+.cardContainer {
+  @apply relative flex h-[263px] w-full items-end overflow-hidden rounded-lg font-[Gibson] shadow-md shadow-slate-500 max-lg:shadow-black md:w-[calc(25%-1rem)] xl:w-[calc(20%-1rem)];
+}
+
+.cardImage {
+  @apply object-cover brightness-75;
+}
+
+.contentContainer {
+  @apply z-50 flex w-full justify-between  p-2 text-tertiary;
+}
+
+.name {
+  @apply mt-3 overflow-ellipsis whitespace-nowrap text-sm font-bold capitalize lg:text-lg;
+}
+.iconSection {
+  @apply flex w-4/12 items-center justify-center;
+}
+.priceContainer {
+  @apply mb-1 flex w-8/12 flex-col align-top;
+}
+.rating {
+  @apply text-base font-medium text-[#d6de29];
+}
+
+.rating :last-child {
+  @apply mx-1 text-sm text-white/70;
+}
+.price {
+  @apply text-base font-medium text-white/50;
+}
+.icon {
+  @apply text-2xl text-fourthiary lg:text-4xl;
+}
+
+.iconContainer {
+  @apply m-1 flex w-fit items-center justify-center self-end rounded-full bg-fifth  text-xs text-tertiary shadow-[0px_0px_0px_5px_rgba(214,222,41,0.25)] lg:p-1;
+}

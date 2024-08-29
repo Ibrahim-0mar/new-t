@@ -1,0 +1,12 @@
+.container {
+  @apply my-4 flex flex-col items-center justify-center;
+}
+.text {
+  @apply my-8 text-center text-lg;
+}
+.buttonsContainer{
+  @apply flex justify-between items-center flex-col lg:flex-row
+}
+.button {
+  @apply rounded-2xl px-10 mx-2 my-1 min-w-52;
+}

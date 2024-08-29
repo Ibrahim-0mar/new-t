@@ -1,0 +1,35 @@
+.container {
+  @apply relative h-[250px] w-full overflow-hidden rounded-sm bg-secondary shadow-md;
+}
+
+.overlay {
+  @apply absolute inset-0 bottom-0 top-0 z-40 m-2 rounded-sm border-2 border-white sm:m-5;
+}
+
+.bottomSection {
+  @apply absolute inset-x-0 bottom-0 z-50 w-full;
+}
+
+.gradian {
+  @apply w-full bg-gradient-to-t from-sixth to-sixth/0 p-2 text-center font-poppins text-white;
+}
+
+.h2 {
+  @apply text-2xl font-medium 2xl:text-3xl;
+}
+
+.logoContainer {
+  @apply bg-tertiary px-3 py-2 sm:px-7;
+}
+
+.innerContainer {
+  @apply mb-2 flex items-center justify-between gap-2 sm:gap-5;
+}
+
+.fromAirport {
+  @apply font-medium leading-tight text-primary;
+}
+
+.link {
+  @apply rounded bg-seventh px-2 py-0.5 text-lg font-semibold text-fourthiary hover:bg-opacity-80 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-primary sm:px-5;
+}

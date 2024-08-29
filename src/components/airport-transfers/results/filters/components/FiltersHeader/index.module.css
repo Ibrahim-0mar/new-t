@@ -1,0 +1,19 @@
+.container {
+  @apply border-b border-primary max-md:hidden;
+}
+
+.buttonContainer {
+  @apply mb-5 flex items-center justify-between;
+}
+
+.buttonContainer > p {
+  @apply text-xs font-medium capitalize text-primary;
+}
+
+.buttonContainer > button {
+  @apply p-0 text-xs font-medium text-sixth  duration-200 ease-in-out hover:opacity-80;
+}
+
+.flightNumber {
+  @apply mb-5 text-xs capitalize text-seventh;
+}

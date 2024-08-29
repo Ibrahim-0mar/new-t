@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col items-center gap-5 pb-3 text-primary;
+}
+.container img {
+  @apply mt-5 h-auto w-auto max-lg:my-10 max-md:w-[80%];
+}
+.faqsTopics {
+  @apply my-10 flex flex-col items-center gap-5;
+}
+.topicContainer {
+  @apply flex w-full flex-col;
+}
+.heading {
+  @apply mb-2 mt-10 font-bold md:mb-4 md:text-2xl;
+}

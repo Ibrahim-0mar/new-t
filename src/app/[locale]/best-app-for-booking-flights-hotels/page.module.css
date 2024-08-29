@@ -1,0 +1,94 @@
+.downloadApp {
+  @apply mt-12 flex flex-col-reverse justify-between gap-4 text-primary lg:flex-row;
+}
+
+/* *====================================== Download App SECTION ======================================* */
+.downloadApp article {
+  @apply flex w-full flex-col gap-8 lg:w-8/12;
+}
+
+.downloadApp article h1 {
+  @apply text-3xl font-semibold lg:text-5xl;
+}
+
+.downloadApp article ul {
+  @apply hidden flex-col gap-3 text-lg font-semibold lg:flex lg:text-xl;
+}
+
+.downloadApp article .decription {
+  @apply mb-6 mt-2 font-semibold text-primary;
+}
+
+.downloadApp .QRCodeBox {
+  @apply hidden flex-col gap-2 rounded-xl bg-white p-3 shadow-inner shadow-black/20 sm:flex-row lg:flex;
+}
+
+.downloadApp .QRCodeBox img {
+  @apply h-fit;
+}
+
+.downloadApp .QRCodeBox .description {
+  @apply flex flex-col gap-2 text-base lg:text-lg;
+}
+
+.downloadApp .QRCodeBox .description > p:first-of-type {
+  @apply text-lg font-semibold lg:text-xl;
+}
+
+.downloadApp .download {
+  @apply flex justify-center gap-3 lg:hidden;
+}
+
+.downloadApp .img {
+  @apply relative h-[500px] lg:w-[750px];
+}
+
+.downloadApp .img img {
+  @apply h-full w-full object-cover lg:mt-8;
+}
+
+/* *======================================= Paragraphs SECTIONS ======================================* */
+.section {
+  @apply my-16
+}
+
+.sectionHeading {
+  @apply text-xl font-bold text-primary lg:text-3xl;
+}
+
+.sectionParagraph {
+  @apply mb-6 mt-2 font-semibold text-primary;
+}
+
+/* *========================================== FAQS SECTION ==========================================* */
+.topicContainer {
+  @apply flex w-full flex-col;
+}
+.heading {
+  @apply mb-2 mt-10 font-bold md:mb-4 md:text-2xl;
+}
+
+/* *====================================== App features SECTION ======================================* */
+.appFeatures {
+  @apply mt-24 rounded-xl bg-white p-4 text-primary shadow-inner shadow-black/20;
+}
+
+.appFeatures ul {
+  @apply grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4;
+}
+
+.appFeatures ul li {
+  @apply flex flex-col items-center gap-1 rounded-lg p-4 text-center shadow-lg;
+}
+
+.appFeatures ul li .img {
+  @apply flex h-16 w-16 items-center justify-center rounded-full bg-fifth p-3;
+}
+
+.appFeatures ul li h3 {
+  @apply font-semibold;
+}
+
+.appFeatures ul li p {
+  @apply mt-1 text-base;
+}

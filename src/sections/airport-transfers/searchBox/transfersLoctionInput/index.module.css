@@ -1,0 +1,39 @@
+.container {
+  @apply w-full;
+}
+.inputSection {
+  @apply w-full flex-wrap items-center gap-2 overflow-hidden rounded-full border-[0.5px] border-primary  bg-secondary  p-3 shadow-sm;
+}
+.inputContainer {
+  @apply flex items-center gap-2 px-1.5;
+}
+.input {
+  @apply flex w-full bg-transparent text-xs outline-none;
+}
+.icon {
+  @apply w-10 text-8xl font-bold text-primary lg:text-sixth;
+}
+.dropdown {
+  @apply absolute z-10 mt-1 max-h-80 w-[600px] overflow-auto rounded-2xl bg-secondary p-0 px-6 py-5 shadow-sm shadow-seventh;
+}
+.resultItemContainer {
+  @apply flex  cursor-pointer items-center px-2 py-2 text-secondary hover:text-sixth;
+}
+.resultIcon {
+  @apply me-2 text-2xl;
+}
+.nameSection {
+  @apply ms-2 flex flex-col items-start;
+}
+.name {
+  @apply block text-sm font-semibold;
+}
+.phrase {
+  @apply text-start text-xs;
+}
+.selectedItem {
+  @apply absolute rounded-full border-2 border-sixth bg-secondary p-1 px-1 text-xs font-medium focus:border-fourthiary focus:bg-seventh focus:text-fourthiary;
+}
+.listHeader {
+  @apply flex items-center justify-between px-2 py-2 font-bold text-secondary;
+}

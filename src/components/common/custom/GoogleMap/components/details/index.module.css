@@ -1,0 +1,30 @@
+.detailsContainer {
+  @apply right-0 m-5 min-w-[250px] max-w-[320px] rounded-xl bg-fourthiary bg-opacity-60 px-5 pb-4 pt-2 text-white lg:absolute;
+}
+.detailsContainer > h2 {
+  @apply text-lg font-medium;
+}
+.detailsContainer > p {
+  @apply text-xs;
+}
+.detailsContainer > p > span {
+  @apply mx-1 font-medium text-fifth;
+}
+.detailsContainer > ul {
+  @apply flex list-inside list-disc flex-col items-start gap-2;
+}
+.routeLi {
+  @apply whitespace-pre-line pl-6 text-left -indent-4;
+}
+.toggleBtn {
+  @apply flex  gap-1 rounded-xl bg-ninth;
+}
+.hideBtn {
+  @apply w-full text-center font-semibold;
+}
+.routeButton {
+  @apply flex rounded-xl p-0 text-xs;
+}
+.activeRoute {
+  @apply items-center gap-1 bg-fifth px-3 py-1 font-semibold text-tenth;
+}

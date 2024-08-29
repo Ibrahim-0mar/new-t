@@ -1,0 +1,7 @@
+.mediumRectangle {
+  @apply my-2 animate-pulse rounded-md bg-gray-200;
+}
+
+.HalfPage {
+  @apply my-2 animate-pulse rounded-md bg-gray-200;
+}

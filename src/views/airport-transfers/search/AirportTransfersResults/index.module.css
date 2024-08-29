@@ -1,0 +1,40 @@
+.container {
+  @apply flex  h-full flex-col items-center text-seventh;
+}
+.loaderContainer {
+  @apply m-1 flex w-full items-center text-sm;
+}
+.mapContainer {
+  @apply mt-2 h-[50vh] w-full;
+}
+.sortContainer {
+  @apply mb-4 flex min-h-max w-full items-center  rounded-md bg-secondary  pt-2 text-sm  shadow-sm  shadow-seventh;
+}
+.sortCard {
+  @apply flex w-[35%] cursor-pointer flex-col  items-center justify-center rounded-none border-e-[1px] border-secondary p-0 pb-3  text-[10px] font-semibold text-seventh last:border-e-0 md:text-sm;
+}
+.sortHeader {
+  @apply ms-1 lg:mb-2;
+}
+.sortData {
+  @apply ms-1  flex w-full flex-col justify-center lg:flex-row;
+}
+.sortPrice {
+  @apply me-2;
+}
+
+.activeSort {
+  @apply border-b-4 border-b-fifth font-bold text-secondary;
+}
+.otherSorts {
+  @apply w-[22%];
+}
+.showMoreButton {
+  @apply my-6 self-center rounded-md bg-ninth px-6 py-2 text-center text-xs font-medium text-primary shadow-sm hover:bg-fifth  hover:text-fourthiary md:text-lg;
+}
+.fliterAndSort {
+  @apply my-2 flex w-full items-center justify-between gap-2 lg:hidden;
+}
+.filterButton {
+  @apply w-full rounded-lg bg-[#ffffff] px-4 py-2.5 text-center text-lg font-semibold text-black drop-shadow-md hover:text-fourthiary;
+}

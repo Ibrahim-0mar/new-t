@@ -1,0 +1,31 @@
+.logoContainer {
+  @apply mb-3 flex flex-col items-center justify-center 2xl:mb-6;
+}
+
+.inputsContainer {
+  @apply flex flex-col justify-between gap-1.5 py-1.5 2xl:gap-3 2xl:py-3;
+}
+
+.formInputs {
+  @apply rounded-xl px-5 py-1.5 2xl:py-2;
+}
+
+.errorMessage {
+  @apply mx-5 mt-1 text-sm text-red-500;
+}
+
+.buttonsContainer {
+  @apply flex flex-col items-start justify-between 2xl:gap-3;
+}
+
+.submitButton {
+  @apply my-3 w-full rounded-lg bg-fifth py-2 text-sm font-medium uppercase text-primary duration-200 hover:opacity-80 2xl:text-lg;
+}
+
+.alreadyHaveAccountButton {
+  @apply rounded-none px-1 py-0 text-sm text-sixth underline underline-offset-4 2xl:text-base;
+}
+
+.showPassContainer {
+  @apply absolute top-1/2 -translate-y-1/2 cursor-pointer text-seventh ltr:right-4 rtl:left-4;
+}

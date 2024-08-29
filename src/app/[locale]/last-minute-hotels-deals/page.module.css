@@ -1,0 +1,11 @@
+.section {
+  @apply my-6 lg:my-14
+}
+
+.sectionHeading {
+  @apply text-xl font-bold text-primary lg:text-3xl;
+}
+
+.sectionParagraph {
+  @apply mb-6 mt-2 font-semibold text-primary;
+}

@@ -1,0 +1,15 @@
+.links {
+  @apply grid w-full grid-cols-4 border-b-[1px] border-seventh border-opacity-70 text-lg font-semibold max-md:gap-x-2;
+}
+.link {
+  @apply w-fit h-full py-3 text-twelfth cursor-pointer whitespace-pre-line max-md:text-base;
+}
+.activeLink {
+  @apply flex flex-col pb-3 pt-0 text-primary before:mb-3 before:rounded-b-2xl before:border-b-4 before:border-sixth;
+}
+.container {
+  @apply my-3 w-full self-center rounded-md border-[1px] border-seventh border-opacity-70 px-3 pb-2;
+}
+.btn {
+  @apply flex w-full p-0 m-0 justify-start h-full;
+}

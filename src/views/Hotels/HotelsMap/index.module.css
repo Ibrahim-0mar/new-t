@@ -1,0 +1,21 @@
+.marker {
+  @apply relative cursor-pointer rounded-md bg-white px-2 py-1 font-poppins text-base shadow-md transition-colors duration-300 before:absolute before:bottom-0 before:left-1/2 before:h-2 before:w-2 before:-translate-x-1/2 before:translate-y-1/2 before:rotate-45 before:bg-white hover:bg-black hover:text-white;
+}
+
+.infoWindow {
+  @apply w-[288px];
+}
+.topSection {
+  @apply relative min-h-[143px] w-full text-white;
+}
+
+.header {
+  @apply fixed top-0 z-50 flex w-full items-start justify-between px-2 py-3;
+}
+.closeButton {
+  @apply rounded-full bg-black/50 p-1 text-white transition-all duration-300 ease-in-out hover:bg-black;
+}
+
+.bottomSection {
+  @apply flex w-full flex-col gap-1 p-2 text-[#212a30];
+}

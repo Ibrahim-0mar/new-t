@@ -1,0 +1,21 @@
+.signButton {
+  @apply flex h-8 justify-center !rounded-[22px] border-[1px]  border-[#0a425c] bg-tertiary px-2 py-1 align-middle text-sm font-semibold text-primary max-lg:bg-secondary;
+}
+.profile {
+  @apply flex aspect-square h-8 items-center justify-center rounded-full bg-tertiary p-0 align-middle text-primary;
+}
+.tranparentBg {
+  @apply bg-transparent transition-all duration-500 ease-in-out;
+}
+
+.container {
+  @apply absolute -bottom-2 right-0 w-[200px] translate-y-full rounded-xl bg-white p-5;
+}
+
+.linksContainer {
+  @apply mb-5 text-lg font-medium text-primary;
+}
+
+.signOut {
+  @apply w-full !bg-fourthiary;
+}

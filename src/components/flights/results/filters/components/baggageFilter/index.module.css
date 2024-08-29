@@ -1,0 +1,32 @@
+.directLabel {
+  @apply flex w-full items-center justify-between;
+}
+
+.directLabel > div {
+  @apply flex items-center justify-center gap-2;
+}
+
+.directLabel > div > p:first-of-type {
+  @apply text-xs font-medium capitalize;
+}
+
+.onlyButton {
+  @apply m-0 hidden w-fit cursor-pointer p-0 text-xs font-bold underline underline-offset-4 group-hover:inline-block;
+}
+.directLabel > p {
+  @apply text-xs font-medium text-seventh;
+}
+
+.increamentBtn {
+  @apply p-0;
+}
+.increamentBtn > svg {
+  @apply text-black;
+}
+.countText {
+  @apply min-w-2 select-none text-center text-sm;
+}
+
+.actionIcon {
+  @apply rounded-sm bg-seventh !text-white;
+}

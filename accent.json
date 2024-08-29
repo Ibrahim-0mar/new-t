@@ -1,0 +1,12 @@
+{
+  "apiUrl": "https://accent.travolic.com",
+  "apiKey": "Uezq25KtkgskNdmkvdXa5VRz34BxVkzb8XIH60XQySOKWy1hOWXCFgsOp3txkx16Ohllg8koQB5UB213xgc4OFGXYLmWIQ",
+  "files": [
+    {
+      "language": "en",
+      "format": "json",
+      "source": "messages/en.json",
+      "target": "messages/%slug%.json"
+    }
+  ]
+}

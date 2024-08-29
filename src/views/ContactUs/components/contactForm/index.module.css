@@ -1,0 +1,16 @@
+.formContainer {
+  @apply my-5 flex w-[40vw] flex-col justify-between rounded-xl border-2 p-3 shadow-[inset_0px_0px_2px_0px_rgba(0,0,0,0.2)] max-lg:w-[95%];
+}
+.formContainer input,
+.formContainer textarea {
+  @apply mb-1 mt-3 rounded-md border-2 p-2 text-lg shadow-[0px_0px_3px_0px_rgba(0,0,0,0.2)] focus:outline-[#2ba6de];
+}
+.formContainer textarea {
+  @apply max-h-64 min-h-20 overflow-auto rounded-2xl;
+}
+.invalidValue {
+  @apply text-error;
+}
+.formContainer button {
+  @apply self-center rounded-lg bg-fifth px-8 py-2 text-sm font-bold text-tenth;
+}

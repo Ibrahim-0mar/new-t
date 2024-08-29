@@ -1,0 +1,14 @@
+.datesContainer {
+  @apply flex h-full items-center justify-center rounded-full border-[0.5px] border-primary !text-sm shadow-sm;
+}
+/* .calendarContainer {
+  @apply w-[850px];
+} */
+
+.dayClassName {
+  @apply mx-0 rounded-none font-poppins font-semibold hover:bg-secondary  hover:text-primary;
+}
+
+.container {
+  @apply h-full;
+}

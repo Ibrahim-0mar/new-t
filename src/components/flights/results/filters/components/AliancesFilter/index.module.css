@@ -1,0 +1,22 @@
+.allianceLabel {
+  @apply flex w-full items-center justify-between;
+}
+
+.allianceLabel > div {
+  @apply flex items-center justify-center gap-2;
+}
+.allianceLabel > div > label {
+  @apply flex cursor-pointer items-center justify-center gap-2;
+}
+
+.allianceLabel > div > label > p:first-of-type {
+  @apply text-xs font-medium capitalize;
+}
+
+.allianceLabel > div > p:first-of-type {
+  @apply hidden cursor-pointer text-xs font-bold underline underline-offset-4 group-hover:inline-block;
+}
+
+.allianceLabel > p {
+  @apply text-xs font-medium text-seventh;
+}

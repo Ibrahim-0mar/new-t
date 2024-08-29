@@ -1,0 +1,22 @@
+.directLabel {
+    @apply flex w-full cursor-pointer items-center justify-between;
+  }
+  
+  .directLabel > div {
+    @apply flex items-center justify-center gap-2;
+  }
+  
+  .directLabel > div > p:first-of-type {
+    @apply text-xs font-medium capitalize;
+  }
+  
+  .onlyButton {
+    @apply m-0 hidden w-fit cursor-pointer p-0 text-xs font-bold underline underline-offset-4 group-hover:inline-block;
+  }
+  .directLabel > p {
+    @apply text-xs font-medium text-seventh;
+  }
+  .accent-sixth {
+    @apply bg-white;
+  }
+  

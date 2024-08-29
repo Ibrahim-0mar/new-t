@@ -1,0 +1,35 @@
+.segmentContainer {
+  @apply grid grid-cols-12 text-sm;
+}
+/* ===================================================== */
+.leftCol {
+  @apply col-span-2 flex flex-col gap-5 whitespace-nowrap;
+}
+.leftCol div {
+  @apply flex flex-col items-center;
+}
+.time{
+  @apply text-[10px] font-medium
+}
+.opacity {
+  @apply opacity-40;
+}
+.duration{
+  @apply text-xs
+}
+/* ===================================================== */
+.rightCol {
+  @apply col-span-10 flex gap-2 ltr:pl-2 rtl:pr-2;
+}
+.aminitiesButton{
+  @apply flex items-center justify-start my-1.5 p-0 w-fit text-xs   text-sixth;
+}
+.segmentDetails {
+  @apply flex w-full flex-col justify-between font-medium text-xs;
+}
+.bottomBorderDashed {
+  @apply w-fit border-b-[1px] border-dashed border-seventh text-seventh;
+}
+.buttonIcon{
+  @apply me-1
+}

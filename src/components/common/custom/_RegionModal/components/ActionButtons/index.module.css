@@ -1,0 +1,11 @@
+.container {
+  @apply flex items-center justify-between gap-3;
+}
+.saveButton {
+  @apply mt-5 p-2  w-full rounded-lg bg-fifth text-lg font-medium hover:bg-opacity-50;
+}
+
+.cancelButton {
+  @apply mt-5 p-2  w-full rounded-lg bg-tenth text-lg font-medium hover:bg-opacity-50;
+}
+

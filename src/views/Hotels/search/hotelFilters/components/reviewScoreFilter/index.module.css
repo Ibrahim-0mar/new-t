@@ -1,0 +1,19 @@
+.wrapper {
+  @apply !py-0 !pt-1
+}
+
+.wrapper button p {
+  @apply !text-lg !tracking-wide !font-semibold
+}
+
+.scoreBtn {
+  @apply flex aspect-square w-[30px] items-center justify-center rounded-[4px] border-[1px] border-sixth p-0 text-xs text-black;
+}
+
+.activeScore {
+  @apply bg-seventh text-white;
+}
+
+.scoresContainer {
+  @apply flex justify-between pe-2 mb-3;
+}

@@ -1,0 +1,61 @@
+.faresContainer {
+  @apply py-5;
+}
+.faresContainer > h2 {
+  @apply text-xs md:text-lg font-semibold;
+}
+.faresContainer > h3 {
+  @apply text-xs md:text-base text-seventh;
+}
+/* ============================================================== */
+.faresList {
+  @apply mt-3 w-full rounded-lg shadow-[0px_3px_6px_0px_rgba(0,0,0,0.2)];
+}
+.faresListHeader{
+  @apply text-primary font-bold my-2 text-base
+}
+/* ============================================================== */
+.fareCard {
+  @apply flex items-center justify-between border-b-2 p-4 py-6 relative;
+}
+.imgContainer{
+  @apply max-h-10
+}
+.fareCost {
+  @apply mx-auto lg:mx-0 lg:ms-auto flex self-end;
+}
+.fareCost > p {
+  @apply self-center pt-1 text-xs font-light;
+}
+.fareCost > span {
+  @apply text-xs md:text-xl font-bold;
+}
+.fareDetailsContainer {
+  @apply flex gap-5 flex-grow px-4;
+}
+.viewDealButton {
+  @apply rounded-lg text-[9px] md:text-base bg-fifth px-5 py-1 font-medium text-primary;
+}
+
+/* Fare Baggage Allowance */
+.baggageDetails {
+  @apply flex gap-2 items-center w-full text-xs  font-medium text-secondary;
+}
+.baggage {
+  @apply flex gap-0.5
+}
+.baggageNo {
+  @apply text-[9px] md:text-sm;
+}
+.tooltipContainer {
+  @apply flex flex-col gap-1 text-base w-full whitespace-nowrap;
+}
+.tooltipItem {
+  @apply flex gap-1;
+}
+.tooltipItemKey {
+  @apply font-medium;
+}
+.metaDetailsContainer {
+  @apply text-black absolute bottom-1 ltr:right-2 rtl:left-2 lg:static ms-auto flex justify-center items-center;
+}

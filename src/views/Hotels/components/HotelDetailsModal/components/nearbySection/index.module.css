@@ -1,0 +1,21 @@
+.container {
+  @apply my-5 flex flex-col border-b-[1.5px] border-seventh font-medium pb-5;
+}
+.heading {
+  @apply my-5 text-2xl font-bold;
+}
+.map {
+  @apply m-0 max-h-[50vh] overflow-hidden rounded-3xl;
+}
+.descriptionContainer {
+  @apply mb-10 mt-5 flex flex-col lg:w-[75vw] 2xl:w-[65vw];
+}
+.descriptionContainer > div {
+  @apply flex justify-between;
+}
+.descriptionContainer > h3 {
+  @apply my-5 text-2xl font-bold;
+}
+.descriptionContainer p {
+  @apply lg:w-[30vw] 2xl:w-[25vw];
+}

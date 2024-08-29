@@ -1,0 +1,15 @@
+.blogCard {
+  @apply relative aspect-video rounded-full text-center md:aspect-[1/1.5];
+}
+.blogCard span {
+  @apply absolute right-2 top-0 w-fit -translate-y-1/2 rounded-full bg-fifth p-3 px-7 py-1 font-semibold text-ninth rtl:left-2;
+}
+.blogCard img {
+  @apply h-full w-full rounded-2xl object-cover;
+}
+.blogCard p {
+  @apply absolute bottom-2 p-3 px-6 text-center text-lg font-semibold text-tertiary md:bottom-10;
+}
+.blogCard > div {
+  @apply flex justify-center;
+}

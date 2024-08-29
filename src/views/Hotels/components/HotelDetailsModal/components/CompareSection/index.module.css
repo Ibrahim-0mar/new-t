@@ -1,0 +1,16 @@
+.container {
+  @apply mb-10 flex flex-col gap-1;
+}
+.heading {
+  @apply text-2xl font-bold;
+}
+.paragraph {
+  @apply font-medium;
+}
+/* ============================= */
+.subContainer {
+  @apply my-3 rounded-3xl bg-primary p-3;
+}
+.cardsContainer {
+  @apply flex gap-5;
+}

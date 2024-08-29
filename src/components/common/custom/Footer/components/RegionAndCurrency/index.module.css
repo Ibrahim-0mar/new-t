@@ -1,0 +1,19 @@
+.descktopSections {
+  @apply hidden lg:block;
+}
+
+.regionButton {
+  @apply mt-5 flex w-[140%] items-center justify-between rounded-md  border-[1px] bg-transparent px-5 py-1.5 text-fourthiary shadow-sm   shadow-fourthiary md:flex;
+}
+
+.regiontext {
+  @apply me-1 text-base;
+}
+
+.flag {
+  @apply me-1 self-center;
+}
+
+.regionImage {
+  @apply m-auto  -mt-5;
+}

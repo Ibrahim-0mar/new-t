@@ -1,0 +1,13 @@
+.mainContainer {
+  @apply flex w-full flex-col items-center lg:pb-[15vh] lg:pt-3;
+}
+
+.header {
+  @apply text-lg font-bold text-primary lg:text-3xl;
+}
+.subHeader {
+  @apply mt-2 text-xs font-medium text-primary lg:text-xl;
+}
+.textContainer {
+  @apply mt-2 w-52 text-center text-xs font-medium text-primary lg:text-xl;
+}

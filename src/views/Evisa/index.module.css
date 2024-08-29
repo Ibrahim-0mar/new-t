@@ -1,0 +1,6 @@
+.container {
+  @apply flex flex-col pt-24 2xl:mt-64;
+}
+.continueYourTrip {
+  @apply my-10 self-center text-3xl font-medium text-primary underline max-md:text-2xl;
+}

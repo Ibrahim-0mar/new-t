@@ -1,0 +1,9 @@
+.navItems {
+  @apply hidden h-full items-center gap-5 lg:me-auto lg:ms-4  lg:flex xl:flex;
+}
+.item {
+  @apply mx-3 whitespace-nowrap break-keep text-primary;
+}
+.activeItem {
+  @apply flex h-full items-center whitespace-nowrap border-b-4 border-sixth text-[16px] font-medium text-sixth;
+}

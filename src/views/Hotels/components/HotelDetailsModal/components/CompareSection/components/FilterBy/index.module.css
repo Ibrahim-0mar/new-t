@@ -1,0 +1,15 @@
+.container {
+  @apply my-3 flex items-center gap-5;
+}
+.fitlerBy {
+  @apply text-xl font-semibold;
+}
+.label {
+  @apply flex cursor-pointer select-none items-center gap-1 text-[17px];
+}
+.labelText {
+  @apply mt-1;
+}
+.input {
+  @apply mt-[2px] p-0;
+}

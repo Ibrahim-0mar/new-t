@@ -1,0 +1,19 @@
+.container {
+  @apply border-b border-primary py-5;
+}
+
+.container > button {
+  @apply mb-2 w-full items-center justify-between p-0 duration-200 ease-in-out;
+}
+
+.container > button > p:first-of-type {
+  @apply text-sm font-semibold capitalize text-tenth;
+}
+
+.container > div:first-of-type {
+  @apply space-y-3;
+}
+
+.childrenIsCollapsed {
+  @apply hidden overflow-hidden p-0 transition-all duration-200 ease-in-out;
+}

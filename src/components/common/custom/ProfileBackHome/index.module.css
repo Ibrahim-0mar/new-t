@@ -1,0 +1,9 @@
+.linksContainer {
+  @apply flex items-center py-2 text-sm text-primary max-md:font-medium lg:text-base;
+}
+.homeLink {
+  @apply hover:text-blue-400 md:font-medium;
+}
+.chevronRight {
+  @apply mx-1 inline w-6 pt-1 max-md:w-4;
+}

@@ -1,0 +1,43 @@
+.authLogo {
+  @apply mb-3 2xl:mb-5;
+}
+
+.liveExperienceContainer {
+  @apply mb-8 lg:mb-9 2xl:my-11;
+}
+
+.liveExperience {
+  @apply my-8 text-2xl font-semibold leading-none tracking-widest text-primary  2xl:text-[27px];
+}
+
+.trackPrices {
+  @apply text-sm font-medium tracking-wide text-primary 2xl:text-xl;
+}
+
+.socialButtonContainer {
+  @apply mb-3 flex flex-col justify-between gap-3 2xl:mb-10 2xl:gap-6;
+}
+.socialButton {
+  @apply flex items-start !justify-start !ps-[36%]  bg-tenth text-secondary !rounded-full !py-1 transition-opacity duration-100 ease-linear hover:opacity-80;
+}
+
+.iconContainer {
+  @apply flex items-center justify-start  ;
+}
+
+.buttonIcon {
+  @apply me-2;
+}
+
+.buttonText {
+  @apply text-sm font-medium 2xl:text-xl;
+}
+
+.terms {
+  @apply text-sm font-medium tracking-wide text-primary 2xl:text-lg;
+}
+
+.blueText,
+.policy {
+  @apply inline-block px-1 text-[#0783d5] underline-offset-8 transition-all duration-200 ease-in-out hover:underline;
+}

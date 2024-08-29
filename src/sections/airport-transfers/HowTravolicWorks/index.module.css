@@ -1,0 +1,24 @@
+.container {
+  @apply mb-20 mt-28  text-seventh;
+}
+
+.banner {
+  @apply mt-2 grid  rounded-2xl   bg-secondary p-3 shadow-sm shadow-seventh  lg:grid-flow-col;
+}
+.pragraphHeader {
+  @apply mt-3 text-sm font-semibold text-secondary lg:text-xl;
+}
+
+.pragraph {
+  @apply flex  flex-col items-center border-b-[0.5px]  border-seventh p-7 text-center text-secondary last:border-b-0 last:border-e-0  lg:border-b-0 lg:border-e-2;
+}
+.text {
+  @apply mt-3 whitespace-pre-line p-0.5 text-center text-sm font-normal text-secondary lg:text-xl;
+}
+
+.iconContainer {
+  @apply flex w-[20%]  justify-center rounded-full bg-fifth p-3 text-center;
+}
+.icon {
+  @apply flex justify-center self-center text-center;
+}

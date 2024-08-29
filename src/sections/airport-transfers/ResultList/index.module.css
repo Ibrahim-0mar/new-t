@@ -1,0 +1,65 @@
+.container {
+  @apply col-span-4  mx-4  h-32 text-seventh;
+}
+.sortCard {
+  @apply col-span-4 mb-4 grid h-24 grid-flow-col rounded-2xl border-2 border-slate-300 bg-secondary p-3  shadow-sm  shadow-seventh;
+}
+.itineraryCard {
+  @apply col-span-4 grid grid-flow-col rounded-2xl border-2 border-slate-300 bg-secondary p-3 shadow-sm  shadow-seventh;
+}
+
+.deaputre {
+  @apply text-xl font-bold text-secondary;
+}
+.Airport {
+  @apply text-xl font-light text-seventh;
+}
+.sort {
+  @apply grid  grid-flow-col p-3 text-lg font-medium text-secondary;
+}
+.cheapPrice {
+  @apply ml-2 grid grid-flow-row justify-center border-e-2 text-center text-lg font-medium text-seventh;
+}
+.cheapPrice:hover {
+  @apply grid grid-flow-row border-e-2 text-lg font-medium text-secondary;
+}
+.carImage {
+  @apply grid w-1/5 grid-flow-row;
+}
+.legContainer {
+  @apply grid grid-flow-col items-center p-3;
+}
+.flightInfoSection {
+  @apply grid grid-flow-row border-e-2;
+}
+.price {
+  @apply text-2xl font-bold text-secondary;
+}
+.cabinClass {
+  @apply text-primary;
+}
+.button {
+  @apply col-span-1 justify-center rounded-lg border-2 border-fifth  bg-fifth text-center text-lg font-bold text-primary;
+}
+
+.priceSection {
+  @apply grid grid-flow-row items-center p-4;
+}
+.select {
+  @apply justify-center text-center text-xl font-bold text-primary;
+}
+.moreDetails {
+  @apply grid w-5/12 grid-flow-col;
+}
+.bags {
+  @apply grid w-10/12 grid-flow-col items-center justify-center text-left;
+}
+.duration {
+  @apply text-lg text-primary;
+}
+.durationCard {
+  @apply grid grid-flow-col  items-center justify-center self-center;
+}
+.img {
+  @apply ml-3 mr-3 justify-center;
+}

@@ -1,0 +1,63 @@
+.linkInput {
+    @apply border-t-seventh text-sm rounded-lg focus-visible:ring-0
+}
+.CopyBtn {
+    @apply text-sm text-sixth rounded-lg
+}
+.input {
+    @apply focus-visible:ring-0 text-black border-primary border-[1px] py-2
+}
+.authBtn {
+    @apply px-4 py-1 
+}
+.nestedClassName {
+    @apply !w-full !px-7
+}
+.grandClassName {
+    @apply lg:w-[30%] backdrop:bg-gray-800/10
+}
+.container {
+    @apply flex flex-col
+}
+.headerDetails {
+    @apply flex flex-col items-center justify-between self-start mb-2
+}
+.heading {
+    @apply text-xl font-semibold my-2 self-start 
+}
+.flightPath {
+    @apply text-xs font-medium self-start text-start
+}
+.price {
+    @apply my-1 text-end text-base font-bold
+}
+.shareLinkContainer {
+    @apply flex flex-col gap-1
+}
+.label {
+    @apply text-sm font-semibold
+}
+.linkInputContainer {
+    @apply flex gap-3
+}
+.form {
+    @apply my-2 flex flex-col gap-1 text-sm
+}
+.inputContainer {
+    @apply flex flex-col gap-1
+}
+.textArea {
+    @apply input my-3 min-h-28 w-full rounded-lg border-[1px] border-black px-3 py-2 focus:outline-none
+}
+.invalidValue {
+    @apply py-1 text-sm text-error
+}
+.successMessage {
+    @apply text-sm text-green-400
+}
+.errorMessageContainer {
+    @apply flex items-center justify-between
+}
+.shareBtn {
+    @apply my-1
+}

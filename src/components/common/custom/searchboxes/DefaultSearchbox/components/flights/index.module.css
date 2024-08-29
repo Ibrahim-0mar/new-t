@@ -1,0 +1,61 @@
+.container {
+  @apply h-auto items-center;
+}
+.topSectionContainer {
+  @apply flex w-full  justify-between;
+}
+.tabsContainer {
+  @apply mt-1 flex;
+}
+.tab {
+  @apply m-2  flex h-fit items-center !rounded-3xl bg-tertiary px-5 py-2  text-sm font-medium;
+}
+.active {
+  @apply bg-fifth bg-opacity-60;
+}
+.cabinTravellersSection {
+  @apply mx-6 my-3 flex text-sm font-medium;
+}
+
+.locations {
+  @apply flex gap-2 relative flex-grow
+}
+
+.input {
+  @apply flex-grow
+}
+
+.swapLocationsBtn {
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] rounded-full p-2 bg-white shadow-[0px_3px_9px_0px_rgba(0,0,0,0.16)]
+}
+
+.locationInput {
+  @apply relative mx-1 flex h-full;
+}
+
+.datesContainer {
+  @apply mx-0.5 flex text-xs flex-grow;
+}
+.contentContainer {
+  @apply relative flex w-full py-1.5;
+}
+.directOnly {
+  @apply m-3 flex w-1/2 items-center justify-start self-start pb-1 ps-3;
+}
+.directOnlyText {
+  @apply ms-2 text-sm font-normal text-primary;
+}
+.searchButton {
+  @apply mx-2 h-11 w-[12%] justify-center !rounded-full bg-fifth py-1 text-center   text-lg font-medium text-primary hover:bg-opacity-80;
+}
+.addFlightButton {
+  @apply mx-2 w-[12%] justify-center !rounded-full px-4 py-2.5 text-center text-lg font-semibold text-primary;
+}
+
+
+.bottomSection {
+  @apply flex w-full items-center justify-between mt-2;
+}
+.errorMessage {
+  @apply text-sm text-red-500 absolute ms-3 whitespace-nowrap;
+}

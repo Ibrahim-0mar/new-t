@@ -1,0 +1,22 @@
+.aminitiesContainer {
+  @apply flex flex-col w-full ;
+}
+.co2 {
+  @apply me-1 cursor-pointer text-sm font-bold;
+}
+.aminitiesItem {
+  @apply flex  items-center my-1.5;
+}
+
+.aminitiesIcon {
+  @apply me-1 cursor-pointer;
+}
+.buttonsContainer {
+  @apply flex flex-col items-start;
+}
+.aminitiesButton {
+  @apply my-1 flex w-fit items-center justify-start p-0 text-xs   text-sixth;
+}
+.buttonIcon{
+  @apply me-2
+}

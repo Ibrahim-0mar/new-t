@@ -1,0 +1,15 @@
+.fare {
+  @apply flex justify-between border-b-2 border-b-seventh border-opacity-30 py-5 last:border-none;
+}
+.fareDetails {
+  @apply flex items-center gap-10 px-3;
+}
+.advantage {
+  @apply text-sixth;
+}
+.price {
+  @apply text-3xl font-semibold;
+}
+.viewDealBtn {
+  @apply rounded-3xl px-6 font-semibold;
+}

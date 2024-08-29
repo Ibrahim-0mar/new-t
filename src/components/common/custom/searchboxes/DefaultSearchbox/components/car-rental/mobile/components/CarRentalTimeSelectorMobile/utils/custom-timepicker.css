@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .react-datepicker,
+  .react-datepicker-time__input,
+  .react-datepicker-time__input-container {
+    @apply !w-full !bg-transparent !font-poppins !text-base !font-medium !text-secondary shadow-none;
+  }
+  #transfers-timeContainer .react-datepicker {
+    @apply !m-0;
+  }
+}

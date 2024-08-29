@@ -1,0 +1,16 @@
+.dealCard {
+  @apply flex justify-between rounded-xl border-[1px] border-seventh border-opacity-50 px-3 shadow-[inset_0px_3px_6px_0px_rgba(0,0,0,0.16)];
+}
+.dateContainer {
+  @apply flex flex-col items-start justify-center;
+}
+.date {
+  @apply text-lg font-medium max-md:text-base;
+}
+.airline {
+  @apply max-md:text-sm;
+}
+
+.priceContainer {
+  @apply flex flex-col items-start justify-center text-xl font-medium max-md:whitespace-nowrap max-md:text-base;
+}

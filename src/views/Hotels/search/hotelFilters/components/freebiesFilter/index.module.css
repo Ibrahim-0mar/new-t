@@ -1,0 +1,27 @@
+.wrapper {
+  @apply !py-0 !pt-1 !pb-3 !gap-2
+}
+
+.wrapper button p {
+  @apply !text-lg !tracking-wide !font-semibold
+}
+
+.label {
+  @apply flex cursor-pointer items-center justify-between gap-1;
+}
+
+.inActive {
+  @apply cursor-default opacity-50;
+}
+
+.checkBoxContainer {
+  @apply flex items-center gap-1 text-sm font-medium;
+}
+
+.onlyButton {
+  @apply m-0 hidden w-fit cursor-pointer p-0 text-xs font-semibold underline underline-offset-4 group-hover:inline-block;
+}
+
+.count {
+  @apply font-medium text-sm mx-1.5;
+}

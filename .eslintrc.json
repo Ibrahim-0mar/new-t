@@ -1,0 +1,43 @@
+// {
+//   "extends": "next/core-web-vitals"
+// }
+
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    // "plugin:cypress/recommended",
+    "plugin:@next/next/recommended",
+    "next/core-web-vitals"
+    // "plugin:prettier/recommended",
+    // "plugin:prettier/recommended"
+
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "cypress/globals": true
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "cypress",
+    "@next/next"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/no-explicit-any": "off"
+    // "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
+   
+  }
+}

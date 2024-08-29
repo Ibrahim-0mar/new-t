@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col;
+}
+.solidCircle {
+  @apply h-[15px] w-[13px] rounded-[50%] bg-[#2ba6de] shadow-[0px_0px_5px_0px_#707070];
+}
+.outlinedCitcle {
+  @apply h-[15px] w-[13px] rounded-[50%] border-[3px] border-fourthiary bg-[#2ba6de] shadow-[0px_0px_5px_0px_#707070];
+}
+.solidLine {
+  @apply h-full w-0 self-center border-[1px] border-sixth;
+}
+.dashedLine {
+  @apply mx-[5.5px] border-dashed;
+}

@@ -1,0 +1,28 @@
+.inputContainer {
+  @apply w-full px-5;
+}
+.location {
+  @apply flex max-h-20 w-full items-center gap-4 border-[1px] border-primary border-opacity-80 bg-secondary px-4 py-3 font-medium text-primary;
+}
+.locationSelect {
+  @apply fixed left-0 right-0 z-[999] min-h-[100dvh] bg-secondary p-4 text-primary shadow-[0px_3px_6px_1px_rgb(0,0,0,0.16)] transition-all duration-500 ease-in-out lg:hidden;
+}
+.planeIcon {
+  @apply text-primary;
+}
+.selectedCode {
+  @apply mt-1;
+}
+.placeHolder {
+  @apply text-sm opacity-50;
+}
+
+.locationMenuHeader {
+  @apply flex h-5 items-center justify-between text-black;
+}
+.headerText {
+  @apply mx-auto font-medium;
+}
+.doneButton {
+  @apply fixed bottom-10 left-1/2 w-11/12 -translate-x-1/2  self-center rounded-xl bg-fifth px-7 py-1 text-fourthiary;
+}

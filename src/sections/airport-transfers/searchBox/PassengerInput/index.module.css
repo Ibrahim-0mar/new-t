@@ -1,0 +1,46 @@
+.container {
+  @apply px-1 py-3;
+}
+.rowContainer {
+  @apply flex  cursor-pointer items-center p-1;
+}
+.trigger {
+  @apply flex items-center p-2 text-sm font-medium text-primary;
+}
+.icon {
+  @apply text-xl text-black;
+}
+
+.passengerIcon {
+  @apply me-2 w-[15%] text-2xl;
+}
+.content {
+  @apply !w-[10%];
+}
+.headerContainer {
+  @apply flex w-[55%] flex-col;
+}
+.header {
+  @apply text-sm font-normal text-black;
+}
+.subHeader {
+  @apply text-[8px] text-seventh;
+}
+.contentStyle {
+  @apply !w-[10%];
+}
+.counterContainer {
+  @apply me-1 flex w-[45%] items-center justify-between;
+}
+.button {
+  @apply flex h-4 w-4 items-center justify-center rounded-md bg-fourthiary text-lg font-medium text-tertiary;
+}
+.disabledButton {
+  @apply flex h-4 w-4 items-center justify-center rounded-md border-[0.5px] border-primary bg-secondary text-lg font-medium text-primary;
+}
+.errorMessage {
+  @apply ms-2 mt-2 border-t-[0.5px] pt-1 text-[11px] text-error;
+}
+.popup {
+  @apply w-10/12;
+}

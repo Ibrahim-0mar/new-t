@@ -1,0 +1,15 @@
+.mainContainer {
+  @apply my-10;
+}
+.mainContainer > h2 {
+  @apply text-3xl font-medium text-primary max-md:whitespace-pre-wrap max-md:text-xl;
+}
+.container {
+  @apply my-3 flex-col rounded-xl border-seventh border-opacity-50 md:border-[1px] md:p-3;
+}
+.header {
+  @apply grid grid-cols-5 rounded-xl bg-eighth py-2 text-lg font-medium text-primary max-md:hidden;
+}
+.header > span {
+  @apply col-span-1 text-center;
+}

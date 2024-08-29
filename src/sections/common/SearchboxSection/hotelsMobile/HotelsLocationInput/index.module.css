@@ -1,0 +1,39 @@
+.mainContainer {
+  @apply w-full  py-4;
+}
+.inputSection {
+  @apply w-full space-x-3 rounded-2xl border-[1px] border-primary px-3 py-3;
+}
+.inputContainer {
+  @apply flex items-center gap-3;
+}
+.direction {
+  @apply text-sm font-medium text-twelfth opacity-60;
+}
+.input {
+  @apply w-full text-base font-medium text-black focus:outline-none;
+}
+.suggesstionsList {
+  @apply w-full overflow-y-auto;
+}
+.resultItemContainer {
+  @apply flex  cursor-pointer items-center px-2 py-2 text-secondary hover:text-sixth;
+}
+.selectedItem {
+  @apply rounded-full border-2 border-sixth bg-secondary px-1 text-xs font-medium focus:border-fourthiary focus:bg-seventh focus:text-fourthiary;
+}
+.resultIcon {
+  @apply me-2 text-2xl;
+}
+.cancel {
+  @apply cursor-pointer px-1;
+}
+.nameSection {
+  @apply ms-2 flex flex-col items-start;
+}
+.name {
+  @apply block text-sm font-semibold;
+}
+.phrase {
+  @apply text-xs;
+}

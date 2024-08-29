@@ -1,0 +1,42 @@
+.mainContainer {
+  @apply mb-3 w-full;
+}
+.inputSection {
+  @apply my-3 w-full space-x-3 rounded-2xl border-[1px] border-primary px-3 py-3;
+}
+.inputContainer {
+  @apply flex items-center gap-3;
+}
+.direction {
+  @apply text-sm font-medium text-twelfth opacity-60;
+}
+.input {
+  @apply w-full text-sm font-medium text-black focus:outline-none;
+}
+.suggesstionsList {
+  @apply h-[75vh] w-full overflow-y-scroll;
+}
+.resultItemContainer {
+  @apply flex  cursor-pointer items-center px-2 py-2 text-secondary hover:text-sixth;
+}
+.selectedItem {
+  @apply px-1 text-sm font-medium;
+}
+.resultIcon {
+  @apply me-2 text-2xl;
+}
+.cancel {
+  @apply cursor-pointer px-1;
+}
+.nameSection {
+  @apply ms-2 flex flex-col items-start text-start;
+}
+.name {
+  @apply block text-sm font-semibold;
+}
+.phrase {
+  @apply text-xs;
+}
+.listHeader {
+  @apply flex items-center justify-between px-2 py-2 font-bold text-secondary;
+}

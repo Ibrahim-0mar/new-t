@@ -1,0 +1,35 @@
+.cardContainer {
+  @apply h-24 w-full overflow-hidden  rounded-lg text-seventh shadow-xl lg:relative lg:h-28;
+}
+.cardImage {
+  @apply h-full w-full rounded-lg object-cover object-center max-lg:shadow-[0px_0px_6px_0px_rgba(0,0,0,0.32)];
+}
+
+.darkOverlay {
+  @apply absolute inset-0 rounded-lg bg-black opacity-50;
+}
+.contentContainer {
+  @apply absolute  bottom-1 flex w-full   transform   justify-between  text-tertiary;
+}
+.priceContainer {
+  @apply mb-1 flex w-full flex-row items-center justify-between   px-2 pe-6 align-top max-lg:gap-4 lg:px-4;
+}
+.dataSection {
+  @apply flex w-9/12 flex-col;
+}
+.cityHeader {
+  @apply mt-3 truncate   text-sm font-bold uppercase lg:text-base;
+}
+
+.price {
+  @apply whitespace-nowrap text-sm text-gray-200 opacity-90 shadow-shadow;
+}
+.icon {
+  @apply text-2xl text-fourthiary lg:text-5xl;
+}
+.iconSection {
+  @apply flex w-2/12 items-center justify-center;
+}
+.iconContainer {
+  @apply m-1 mt-7 flex  items-center justify-center rounded-full bg-fifth p-1 text-xs text-tertiary shadow-[0px_0px_0px_5px_rgba(214,222,41,0.25)] lg:p-2;
+}

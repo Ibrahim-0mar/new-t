@@ -1,0 +1,32 @@
+.heeader {
+  @apply mt-3 text-sm font-bold text-seventh;
+}
+
+.airportLabel {
+  @apply flex justify-between;
+}
+
+.airportLabel > div {
+  @apply flex w-[75%] items-start justify-start;
+}
+.airportLabel > div > label {
+  @apply flex w-full cursor-pointer items-start  gap-2 break-words;
+}
+
+.airportLabel > div > label > p:first-of-type {
+  @apply text-xs font-medium capitalize;
+}
+
+.onlyText {
+  @apply me-2 hidden cursor-pointer text-xs font-bold underline underline-offset-4 group-hover:inline-block;
+}
+
+.airportLabel > p {
+  @apply w-[25%] flex-wrap content-start text-end text-xs font-medium  text-seventh;
+}
+.cityName {
+  @apply text-sm font-semibold;
+}
+.disabled {
+  @apply text-seventh opacity-60;
+}

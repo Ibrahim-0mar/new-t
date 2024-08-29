@@ -1,0 +1,38 @@
+.container {
+  @apply my-5 rounded-2xl bg-secondary py-2;
+}
+.mainXAxisPadding {
+  @apply px-3;
+}
+.container > h3 {
+  @apply mainXAxisPadding text-xl font-semibold;
+}
+/* ==================== */
+.amenities {
+  @apply mainXAxisPadding my-3 grid w-[70%] grid-cols-4 gap-2;
+}
+.amenity {
+  @apply flex items-center gap-3;
+}
+.amenity > span {
+  @apply text-sm font-medium text-black text-opacity-70;
+}
+/* ==================== */
+.fares {
+  @apply flex gap-3 border-t-2 border-t-seventh border-opacity-20 py-3 ps-3;
+}
+.image {
+  @apply max-h-[270px] rounded-2xl shadow-[0px_3px_6px_rgba(0,0,0,0.32)];
+}
+.providerImg {
+  @apply mt-1 max-h-6;
+}
+.faresSubContainer {
+  @apply flex h-full w-full flex-col;
+}
+.faresSubContainer > div:last-of-type {
+  @apply border-none;
+}
+.viewAllDealsBtn {
+  @apply w-fit px-0 py-0 text-xl font-medium text-primary;
+}

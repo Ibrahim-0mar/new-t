@@ -1,0 +1,7 @@
+.mainContainer {
+  @apply lg:px-[15vw] lg:pb-[15vh] lg:pt-3;
+}
+
+.textContainer {
+  @apply my-4 whitespace-pre-line text-center text-xs font-medium text-twelfth lg:text-xl;
+}

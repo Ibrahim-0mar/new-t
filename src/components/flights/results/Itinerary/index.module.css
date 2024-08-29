@@ -1,0 +1,162 @@
+.container {
+  @apply mb-2 min-w-[100%] flex rounded-2xl  bg-secondary  shadow-md;
+}
+.flightInfoSection {
+  @apply flex-grow-[3] flex flex-col gap-2 border-e-[1px] pt-3;
+}
+.airlineName {
+  @apply text-[9px] font-light text-seventh lg:text-sm;
+}
+
+.metaDetails {
+  @apply mt-2 flex h-fit w-full items-center justify-between border-t-[1px] p-[1px] px-2 text-xs font-medium text-secondary lg:p-2;
+}
+.baggageContainer{
+  @apply flex items-center w-full
+}
+.baggageDetails {
+  @apply flex;
+}
+.baggageNo {
+  @apply text-[9px] font-medium lg:text-sm;
+}
+.baggageTitle {
+  @apply text-[8px] font-medium text-seventh lg:text-sm;
+}
+.sponsoredText{
+  @apply  text-seventh text-sm flex justify-end   w-full
+}
+.stopsAirportsContainer {
+  @apply flex flex-col items-center justify-center;
+}
+.otherText {
+  @apply -mt-0.5 text-[8px] font-light text-seventh lg:-mt-1.5 lg:text-[10px];
+}
+.otherSites {
+  @apply text-[10px] text-seventh  lg:text-xs;
+}
+.priceSection {
+  @apply flex-grow-[1] flex flex-col items-start justify-between px-1 py-2 lg:px-2;
+}
+.priceSectionDetails {
+  @apply my-auto w-full pt-1;
+}
+.price {
+  @apply my-1  font-bold  text-secondary lg:text-[20px] max-sm:text-base;
+}
+.totalPrice {
+  @apply mb-1 text-[8px] font-medium text-secondary lg:text-xs;
+}
+.person {
+  @apply block text-[8px] font-medium text-secondary lg:inline;
+}
+.priceInfo {
+  @apply my-[1px] text-sm  font-light text-primary lg:text-sm;
+}
+.bookingSitesSection {
+  @apply flex w-full flex-col  items-start;
+}
+.button {
+  @apply mt-3 w-full justify-center rounded-lg border-fifth bg-fifth p-1 text-center text-xs  font-medium text-primary  hover:bg-opacity-60 lg:text-base;
+}
+
+/* Baggage Allowance Tooltip */
+.tooltipContainer {
+  @apply flex min-w-[200px]  flex-col gap-1 text-base;
+}
+.tooltipItem {
+  @apply flex items-center justify-between gap-1;
+}
+.tooltipItemKey {
+  @apply font-medium;
+}
+.restrictionsTooltip {
+  @apply text-base;
+}
+
+/* =================================== */
+
+.multiLegsMargin {
+  @apply my-3;
+}
+.marginAuto {
+  @apply my-1;
+}
+
+.legsContainer {
+  @apply flex gap-1 px-2 text-primary lg:w-full my-auto max-[320px]:px-0;
+}
+.newimageContainer {
+  @apply lg:mt-1 mt-4 flex max-h-3  w-1/5   flex-col items-center justify-center lg:flex  lg:max-h-10 lg:min-w-16;
+}
+.timeAndPlaceContainer {
+  @apply flex flex-col items-center lg:justify-start sm:px-2 justify-center;
+}
+.timeText {
+  @apply text-[9px] font-medium text-secondary lg:text-base;
+}
+.placeCode {
+  @apply font-medium text-sixth max-sm:text-xs;
+}
+.tooltipBodySpan {
+  @apply whitespace-nowrap sm:text-xs;
+}
+.legDetails {
+  @apply flex w-4/5 lg:w-full;
+}
+.middleSectionContainer {
+  @apply me-4 flex w-full flex-col;
+}
+.middle {
+  @apply mx-2 flex w-full justify-between px-1 rtl:flex-row-reverse;
+}
+.takeOff {
+  @apply flex items-center justify-center;
+}
+.minHeight {
+  @apply min-h-[26px];
+}
+.planeContainer {
+  @apply minHeight relative w-10 border-b-2 border-primary max-sm:w-fit;
+}
+.takeOffCircle {
+  @apply absolute -bottom-[4px] -left-[7px] h-[6px] w-[6px] rounded-full border-[1px] border-primary;
+}
+.stopsContainer {
+  @apply flex w-full items-center justify-center px-2 whitespace-nowrap;
+}
+.stopsText {
+  @apply h-[26px] w-full  border-b-2 border-primary text-center lg:text-base font-medium text-sixth max-sm:pt-1 max-sm:text-xxs;
+}
+.landingPlaneContainer {
+  @apply minHeight relative flex w-10 justify-end border-b-2 border-primary max-sm:w-fit;
+}
+.landingCircle {
+  @apply absolute -bottom-[4px] -right-[7px] h-[6px] w-[6px] rounded-full border-[1px] border-primary;
+}
+.durationText {
+  @apply ms-4 text-center text-sm font-medium max-sm:pt-1 max-sm:text-xs;
+}
+.totalBaggagesContainer {
+  @apply mx-2 flex items-center gap-1;
+}
+.totalHandbagesContainer {
+  @apply flex items-center gap-1 ps-2;
+}
+.shareAndFavouriteContainer {
+  @apply mb-2 flex w-full items-end justify-end gap-1 max-lg:pe-2;
+}
+.planeIcone {
+  @apply min-h-6 rtl:hidden;
+}
+.planeIconeAr {
+  @apply min-h-6;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.restrictionsIcon {
+  @apply mx-4;
+}

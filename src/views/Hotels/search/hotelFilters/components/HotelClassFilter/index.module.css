@@ -1,0 +1,11 @@
+.wrapper {
+  @apply !py-0 !pt-1
+}
+
+.wrapper button p {
+  @apply !text-lg !tracking-wide !font-semibold
+}
+
+.starsContainer {
+  @apply flex gap-1 mb-3;
+}

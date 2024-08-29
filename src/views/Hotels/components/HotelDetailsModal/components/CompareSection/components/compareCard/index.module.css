@@ -1,0 +1,31 @@
+.container {
+  @apply flex w-[27%] justify-between rounded-2xl bg-secondary p-4 shadow-[0px_3px_6px_rgba(0,0,0,0.16)];
+}
+.left {
+  @apply flex flex-col justify-center gap-3;
+}
+.providerImg {
+  @apply mb-2 mt-10 max-h-10;
+}
+.heading {
+  @apply text-2xl font-semibold;
+}
+.roomType {
+  @apply font-semibold;
+}
+.bedType {
+  @apply flex items-center gap-2 text-sm text-twelfth;
+}
+/* ===================================== */
+.right {
+  @apply flex flex-col items-end justify-end;
+}
+.price {
+  @apply my-7 text-4xl font-bold;
+}
+.freeItem {
+  @apply text-xs font-medium text-sixth;
+}
+.viewDealBtn {
+  @apply mt-3 rounded-3xl px-1.5 py-2 text-sm font-medium;
+}

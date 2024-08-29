@@ -1,0 +1,9 @@
+.heading {
+  @apply text-3xl font-medium text-primary max-md:text-xl;
+}
+.informationsContainer {
+  @apply my-3 grid grid-cols-3 gap-y-5 rounded-xl border-[1px] border-seventh border-opacity-50 py-2 shadow-[inset_0px_3px_6px_0px_rgba(0,0,0,0.16)] sm:px-10 lg:gap-x-48;
+}
+.informationsIcon {
+  @apply self-center;
+}

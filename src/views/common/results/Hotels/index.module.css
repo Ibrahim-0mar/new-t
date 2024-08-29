@@ -1,0 +1,42 @@
+.container {
+  @apply min-h-screen bg-primary;
+}
+.contentContainer {
+  @apply flex w-full space-y-3 lg:px-[5%];
+}
+.filtersContainer {
+  @apply me-2 hidden lg:block lg:w-[19%];
+}
+.filtersMobileContainer {
+  @apply bottom-0 left-0 right-0 top-0 z-[99999] overflow-y-auto bg-secondary p-5 transition-all duration-500 ease-out lg:hidden;
+}
+.resultsContainer {
+  @apply mx-0 w-full lg:mx-4 lg:w-[60%];
+}
+.adsContainer {
+  @apply hidden lg:block;
+}
+.nodataContainer {
+  @apply m-16 w-[83%];
+}
+.noDataText {
+  @apply text-center text-xl font-medium;
+}
+
+.loaderContainer {
+  @apply flex h-[80vh] w-[83%] items-center justify-center;
+}
+.skeleton {
+  @apply me-2 h-full w-3/12;
+}
+.lottieContainer {
+  @apply me-2 mt-[30%] h-full w-8/12 flex-col;
+}
+
+.filterButton {
+  @apply w-full rounded-lg bg-[#ffffff] px-4 py-2.5 text-center text-lg font-semibold text-black drop-shadow-md hover:text-fourthiary;
+}
+
+.mobilePlacement {
+  @apply mx-auto inline-block h-[100px] w-full animate-pulse rounded-md bg-gray-200 lg:hidden;
+}

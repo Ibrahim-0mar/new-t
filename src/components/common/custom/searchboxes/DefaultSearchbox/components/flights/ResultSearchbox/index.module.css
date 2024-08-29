@@ -1,0 +1,49 @@
+.container {
+  @apply hidden border-t-2 bg-secondary py-3 !text-xs md:px-[2.5%] lg:block 2xl:px-[5%];
+}
+.contentContainer {
+  @apply w-full;
+}
+
+.topSectionContainer {
+  @apply mx-auto flex w-full max-w-7xl justify-between 2xl:max-w-[91rem];
+}
+
+.tripTypeContainer {
+  @apply mr-2 rounded-full bg-primary;
+}
+
+.cabinTravellersSection {
+  @apply ms-2 flex min-w-fit items-center justify-between font-medium;
+}
+
+.locationInput {
+  @apply relative mx-[0.5px] flex w-full;
+}
+
+.datesContainer {
+  @apply mx-[0.5px] flex min-w-[15%] items-center justify-center !text-sm;
+}
+.multiCitydatesContainer {
+  @apply mx-[0.5px] flex min-w-[30%] items-center justify-center !text-xs;
+}
+
+.searchButton {
+  @apply justify-center !rounded-full bg-fifth px-4 py-2.5 text-center text-base  font-semibold text-primary hover:text-fourthiary;
+}
+
+.addFlightButton {
+  @apply justify-center rounded-full px-4 py-2.5 text-center text-lg font-semibold text-primary;
+}
+
+.swapLocationsBtn {
+  @apply absolute z-30 h-fit self-center !rounded-full bg-secondary p-2 shadow-[0px_3px_9px_0px_rgba(0,0,0,0.16)] ltr:-right-5 rtl:-left-5;
+}
+
+.errorMessage {
+  @apply mt-1 text-sm text-red-500;
+}
+
+.multiCityContainer {
+  @apply flex w-[50%] cursor-pointer items-center justify-center rounded-full border border-primary py-2;
+}

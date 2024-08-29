@@ -1,0 +1,12 @@
+.container {
+  @apply bg-primary;
+}
+.faqsContainer {
+  @apply py-5 text-primary;
+}
+.faqsHeading {
+  @apply text-3xl font-semibold text-primary;
+}
+.faqsSubHeading {
+  @apply mb-3 text-lg text-primary;
+}

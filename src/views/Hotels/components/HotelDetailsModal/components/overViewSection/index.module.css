@@ -1,0 +1,54 @@
+.container {
+  @apply my-10 border-b-[1px] border-primary;
+}
+.heading {
+  @apply my-3 text-2xl font-bold;
+}
+.details {
+  @apply flex w-full justify-between;
+}
+.overview {
+  @apply flex max-w-[50%] flex-col;
+}
+.overview > p {
+  @apply my-3 text-xl;
+}
+.readMore {
+  @apply w-fit rounded-xl px-8 font-semibold text-black;
+}
+.sustainableProperty {
+  @apply text-xl font-semibold;
+}
+.learnMore {
+  @apply font-semibold text-sixth;
+}
+.advantages {
+  @apply my-10 grid h-44 w-full grid-cols-6 gap-5;
+}
+.rounded {
+  @apply rounded-2xl;
+}
+.advantages > div {
+  @apply rounded;
+}
+.scoreContainer {
+  @apply flex flex-col items-center justify-center gap-3 bg-fifth shadow-[inset_0px_3px_6px_0px_rgba(0,0,0,0.16)];
+}
+.score {
+  @apply text-4xl font-semibold;
+}
+.rank {
+  @apply text-3xl font-semibold;
+}
+.reviewsCount {
+  @apply text-lg font-medium;
+}
+.advantage {
+  @apply relative flex items-end  bg-contain;
+}
+.advantage > span {
+  @apply absolute flex w-full justify-center rounded-b-2xl bg-fifth py-2 text-center text-sm font-semibold;
+}
+.advantage > img {
+  @apply rounded;
+}

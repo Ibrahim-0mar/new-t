@@ -1,0 +1,11 @@
+.cardsContainer {
+  @apply mt-3 hidden w-full flex-wrap lg:flex;
+}
+
+.slide {
+  @apply m-1 flex h-44 !w-40 lg:hidden;
+}
+
+.sliderContainer {
+  @apply flex w-full lg:hidden;
+}

@@ -1,0 +1,7 @@
+.valuesContainer {
+  @apply flex justify-between;
+}
+
+.valuesContainer > span {
+  @apply text-xs font-bold;
+}

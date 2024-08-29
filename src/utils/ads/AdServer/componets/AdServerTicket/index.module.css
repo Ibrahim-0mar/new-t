@@ -1,0 +1,29 @@
+.container{
+    @apply w-full  justify-between
+}
+.infoSection{
+    @apply w-full rounded-t-xl -mb-3 px-2 pb-4
+}
+.shownSection{
+    @apply w-full flex items-start flex-col lg:flex-row mb-1 
+}
+.dataSection{
+    @apply flex items-center mt-2  w-full max-h-14
+}
+.titlesSection{
+    @apply w-full lg:w-9/12 ms-2
+}
+.title{
+    @apply text-tertiary text-xs lg:text-base 
+}
+.subTitle{
+    @apply text-tertiary text-xxs lg:text-sm font-light
+}
+
+.moreInfoButton{
+    @apply text-tertiary text-xs lg:text-sm w-3/12 !self-end -mt-3 lg:mt-0  
+}
+
+.description{
+    @apply text-tertiary text-xs lg:text-sm font-light mb-2 ms-5 mt-3
+}

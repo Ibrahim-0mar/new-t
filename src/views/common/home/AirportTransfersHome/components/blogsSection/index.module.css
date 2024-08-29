@@ -1,0 +1,36 @@
+.container {
+  @apply my-10 flex flex-col items-center space-y-5;
+}
+.container h2 {
+  @apply self-start whitespace-nowrap font-bold max-lg:text-lg lg:text-xl;
+}
+.container > div {
+  @apply flex w-[80%] items-center;
+}
+
+/* the max-width property to prevent slides from taking the whole viewport while initialization.*/
+.swiperSlide {
+  @apply max-w-[315px] overflow-hidden rounded-2xl max-lg:max-w-[260px];
+}
+.blogCard {
+  @apply relative aspect-[1/1.5] rounded-2xl text-center;
+}
+
+.blogCard img {
+  @apply h-full w-full object-cover;
+}
+.blogCard p {
+  @apply bottom-10 px-8 text-center text-sm font-medium leading-6 text-tertiary max-md:text-xs max-md:font-normal;
+}
+.blogCard a {
+  @apply self-center whitespace-nowrap rounded-xl border-[2px] border-fifth bg-primary px-3 py-1 text-sm font-bold text-primary;
+}
+.blogCard > div {
+  @apply absolute bottom-0 flex flex-col justify-center space-y-2 bg-fourthiary bg-opacity-[0.9] py-3;
+}
+.arrowContainer {
+  @apply rounded-full bg-secondary p-1;
+}
+.info {
+  @apply w-full;
+}

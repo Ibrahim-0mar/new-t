@@ -1,0 +1,3 @@
+.sectionsContainer {
+  @apply mb-10 space-y-4 text-primary;
+}

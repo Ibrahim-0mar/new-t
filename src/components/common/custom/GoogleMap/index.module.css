@@ -1,0 +1,12 @@
+.mapContainer {
+  @apply mb-5 aspect-video w-full;
+}
+.spinnerContainer {
+  @apply flex justify-center py-14;
+}
+.toggleBtn {
+  @apply flex  gap-1 rounded-xl bg-ninth;
+}
+.showBtn {
+  @apply mb-4 items-center px-5 py-2 text-white  lg:absolute  lg:right-0  lg:m-5;
+}

@@ -1,0 +1,63 @@
+.sectionContainer {
+  @apply flex w-full flex-col gap-2 border-b-[1px] border-primary;
+}
+.header {
+  @apply flex justify-between;
+}
+.titleContainer {
+  @apply flex w-1/2 flex-col gap-2;
+}
+.title {
+  @apply flex  items-center gap-2;
+}
+.title > h2 {
+  @apply text-2xl font-bold;
+}
+.stars {
+  @apply flex items-center;
+}
+.priceContainer {
+  @apply flex w-fit items-end gap-3;
+}
+.reviews {
+  @apply my-auto flex gap-2;
+}
+.score {
+  @apply w-12 rounded-xl bg-fifth py-3 text-center font-medium;
+}
+.rankContainer {
+  @apply flex flex-col items-center justify-center;
+}
+.rankContainer > h5 {
+  @apply text-xl font-semibold;
+}
+.rankContainer > span {
+  @apply text-sm;
+}
+.shareAndLike {
+  @apply my-1 flex h-full items-end gap-2;
+}
+.price {
+  @apply flex flex-col gap-2 text-center;
+}
+.price > h2 {
+  @apply text-3xl font-bold;
+}
+.price > button {
+  @apply rounded-xl px-8 py-1.5 text-xl font-medium text-black;
+}
+.imagesMasonry {
+  @apply relative my-10 grid min-h-[75vh] w-full grid-cols-6 grid-rows-6 gap-3;
+}
+.firstImageContainer {
+  @apply relative col-span-4 row-span-6;
+}
+.firstImageContainer > img {
+  @apply rounded-l-3xl;
+}
+.secondImageContainer {
+  @apply relative col-span-2 row-span-3;
+}
+.thirdImageContainer {
+  @apply relative col-span-1 row-span-3 flex items-center justify-center overflow-hidden;
+}

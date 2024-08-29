@@ -1,0 +1,30 @@
+.cardsContainer {
+  @apply my-5 grid w-fit grid-rows-1 gap-5 md:grid-cols-4 lg:grid-cols-5;
+}
+.cardContainer {
+  @apply relative flex aspect-[.70] w-44  justify-center rounded-xl bg-black bg-opacity-30 shadow-[0px_4px_16px_0px_rgba(0,0,0,0.32)] lg:w-40;
+}
+.cardImage {
+  @apply absolute z-[-1] h-full w-full rounded-xl object-cover;
+}
+.cardDetails {
+  @apply flex w-full items-end  justify-around self-end px-2 py-[10%] text-tertiary;
+}
+.nameSection {
+  @apply flex w-3/4 flex-col;
+}
+.cardHeader {
+  @apply w-full text-ellipsis text-base font-semibold;
+}
+.arrow {
+  @apply rounded-full bg-fifth p-1 shadow-[0px_0px_0px_5px_rgba(214,222,41,0.25)];
+}
+.subContainer {
+  @apply flex flex-col items-center;
+}
+.loadingFaildContainer {
+  @apply flex items-center justify-center pt-10;
+}
+.loadingFaildContainer {
+  @apply mt-5 font-poppins text-4xl text-primary;
+}

@@ -1,0 +1,3 @@
+.word {
+  @apply rounded-lg bg-fourthiary px-3 py-2 align-middle text-lg font-medium text-tertiary max-md:px-2 max-md:py-1 max-md:text-sm md:whitespace-nowrap;
+}

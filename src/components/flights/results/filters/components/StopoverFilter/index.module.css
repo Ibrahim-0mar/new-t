@@ -1,0 +1,33 @@
+.selectButtonsWrapper {
+  @apply flex items-center justify-between;
+}
+.selectButtonsWrapper > button {
+  @apply p-0 font-roboto text-sm text-sixth underline underline-offset-4 duration-200 ease-in-out hover:opacity-80;
+}
+
+.stopoverLabel {
+  @apply m-0 flex justify-between p-0;
+}
+
+.stopoverLabel > div {
+  @apply flex w-[75%] items-start justify-start;
+}
+.stopoverLabel > div > label {
+  @apply flex w-full cursor-pointer items-start  gap-2 break-words;
+}
+
+.stopoverLabel > div > label > p:first-of-type {
+  @apply text-xs font-medium capitalize;
+}
+
+.onlyText {
+  @apply me-2 hidden cursor-pointer text-xs font-bold underline underline-offset-4 group-hover:inline-block;
+}
+
+.stopoverLabel > p {
+  @apply w-[25%] flex-wrap content-start text-end text-xs font-medium  text-seventh;
+}
+
+.countryName {
+  @apply m-0 p-0 text-sm font-semibold;
+}

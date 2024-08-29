@@ -1,0 +1,21 @@
+.container {
+  @apply relative mx-1 my-20 flex justify-center rounded-[17px] shadow-[0px_0px_5px_2px_rgba(0,0,0,0.2)] max-lg:flex-col max-lg:items-center md:px-16 md:py-6;
+}
+.container > img:first-of-type {
+  @apply absolute left-0 z-0 max-lg:hidden rtl:right-0 rtl:scale-x-[-1];
+}
+.messagingDetails {
+  @apply relative z-10 w-[50%] py-6 max-lg:w-[90%];
+}
+.messagingDetails > img:first-of-type {
+  @apply absolute left-[-50px] top-[-1px] z-[-1] lg:hidden rtl:-right-12 rtl:scale-x-[-1];
+}
+.messagingDetails h2 {
+  @apply z-20 text-2xl font-semibold text-[#003a4f] max-md:text-xl;
+}
+.messagingDetails p {
+  @apply z-20 my-5 text-xl text-primary max-md:pr-0 max-md:text-sm ltr:pr-[20%] rtl:pl-[20%];
+}
+.messagingDetails span {
+  @apply z-10 mt-6 block text-xl font-semibold;
+}

@@ -1,0 +1,21 @@
+.container {
+  @apply px-1 py-3;
+}
+.trigger {
+  @apply flex items-center p-2 font-medium text-primary;
+}
+.icon {
+  @apply text-xl text-black;
+}
+.content {
+  @apply !w-[10%];
+}
+.contentStyle {
+  @apply !w-[10%];
+}
+.errorMessage {
+  @apply ms-2 mt-2 border-t-[0.5px] pt-1 text-[11px] text-error;
+}
+.popup {
+  @apply w-10/12;
+}

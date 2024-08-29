@@ -1,0 +1,35 @@
+.container {
+  @apply flex flex-col border-b-2 py-5;
+}
+
+.detailKey {
+  @apply w-[20%] text-base font-medium;
+}
+
+.valueContainer {
+  @apply flex w-full items-center justify-between;
+}
+.middleSpan {
+  @apply text-base font-bold;
+}
+
+.form {
+  @apply flex w-full items-start justify-between gap-2.5;
+}
+
+.input {
+  @apply w-full rounded-md border px-1;
+}
+.edit {
+  @apply w-fit p-0 text-end text-base font-medium text-sixth ltr:ml-auto rtl:mr-auto;
+}
+
+.submit {
+  @apply rounded-md px-2 text-sm text-white;
+}
+.cancel {
+  @apply rounded-md px-2 text-sm;
+}
+.error {
+  @apply mx-8 text-xs text-error;
+}

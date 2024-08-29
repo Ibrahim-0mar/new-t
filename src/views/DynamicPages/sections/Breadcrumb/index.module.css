@@ -1,0 +1,15 @@
+.container {
+    @apply text-primary
+}
+.linksContainer {
+    @apply flex items-center py-2 text-lg text-primary max-md:pl-2 max-md:text-xs max-md:font-medium;
+}
+.link {
+    @apply hover:text-blue-400 md:font-semibold;
+}
+.chevronRight {
+    @apply me-1 inline w-6 pt-1 max-md:w-4 last-of-type:hidden;
+  }
+.dest {
+    @apply text-sixth;
+}

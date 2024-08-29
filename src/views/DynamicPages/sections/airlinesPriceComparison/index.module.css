@@ -1,0 +1,48 @@
+.mainContainer {
+  @apply my-10 text-primary;
+}
+.mainContainer > h2 {
+  @apply text-3xl font-medium max-md:text-2xl;
+}
+.container {
+  @apply my-3 grid grid-cols-4 rounded-md border-[1px] border-seventh border-opacity-70 pb-2 shadow-[inset_0px_2px_6px_0px_rgba(0,0,0,0.16)] max-md:rounded-xl;
+}
+.rightCol {
+  @apply col-span-3;
+}
+.rightHeader {
+  @apply grid grid-cols-3 rounded-lg border-[1px] border-seventh border-opacity-70 text-center text-xl font-medium text-primary max-md:text-sm;
+}
+.leftHeaderContainer {
+  @apply mx-2 border-b-[1px] border-seventh border-opacity-50 text-center;
+}
+.barFill {
+  @apply flex h-full whitespace-nowrap rounded-lg bg-seventh py-3 max-md:rounded-2xl ltr:pl-5;
+}
+.leftHeaderContent {
+  @apply flex flex-col pb-1 pt-2 max-md:pb-0;
+}
+.leftBodyContent {
+  @apply flex flex-col gap-[10px] max-xl:py-4 max-lg:py-5 max-sm:py-[18px] xl:py-5;
+}
+.cheapestHeading {
+  @apply text-2xl font-medium max-lg:py-8 max-lg:text-lg max-sm:py-8 lg:py-8 xl:py-6;
+}
+.rightHeaderItem {
+  @apply flex flex-col justify-between gap-3 max-lg:py-2 max-[1024px]:py-5 max-sm:py-[18px] xl:py-9;
+}
+.rightBodyContainer {
+  @apply row-span-2 flex flex-col gap-3 border-l-[1px] border-seventh border-opacity-70 px-2 py-5 max-md:gap-1;
+}
+.BarContainer {
+  @apply rounded-lg bg-eighth max-md:rounded-2xl;
+}
+.percentageBar {
+  @apply flex h-full whitespace-nowrap rounded-lg bg-seventh py-3 ltr:pl-5;
+}
+.cheapestImageContainer {
+  @apply mt-[2px] flex max-h-10 items-center justify-center max-md:max-h-8;
+}
+.imageContainer {
+  @apply mt-[2px] flex max-h-12 items-center justify-center max-md:max-h-8;
+}

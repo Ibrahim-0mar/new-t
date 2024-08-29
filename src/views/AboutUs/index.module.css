@@ -1,0 +1,6 @@
+.container {
+  @apply flex justify-center;
+}
+.sectionsContainer {
+  @apply mb-16 flex flex-col items-center text-left leading-[1.48] text-[#0a425c] lg:gap-5 lg:space-y-10;
+}

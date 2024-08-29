@@ -1,0 +1,16 @@
+.sectionContainer {
+  @apply space-y-5 max-lg:flex max-lg:flex-col max-lg:justify-center lg:mt-5;
+}
+.heading {
+  @apply font-bold text-ninth max-lg:mt-5;
+}
+.contentContainer {
+  @apply flex gap-5 max-lg:flex-col max-lg:items-center justify-between;
+}
+
+.contentContainer p {
+  @apply whitespace-pre-line text-base leading-[1.48] text-primary lg:text-xl;
+}
+.image {
+  @apply self-center max-lg:w-[40%];
+}

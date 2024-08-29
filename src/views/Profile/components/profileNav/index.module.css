@@ -1,0 +1,10 @@
+.linksContainer {
+  @apply mt-8 w-full text-base text-primary;
+}
+.link {
+  @apply pb-2;
+}
+
+.activeLink {
+  @apply border-b-4 border-sixth font-semibold text-sixth;
+}

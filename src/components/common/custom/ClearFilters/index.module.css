@@ -1,0 +1,9 @@
+.container {
+  @apply my-4 flex flex-col items-center justify-center;
+}
+.text {
+  @apply my-8 text-center text-lg;
+}
+.button {
+  @apply rounded-2xl px-10;
+}

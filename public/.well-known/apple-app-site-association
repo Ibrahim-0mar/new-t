@@ -1,0 +1,27 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "HGLZGCPZZ3.com.travolic.app"
+        ],
+        "components": [
+          {
+            "/": "*",
+            "comment": "Matches all routes"
+          }
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "HGLZGCPZZ3.com.travolic.app"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "HGLZGCPZZ3.com.travolic.app"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+.mainContainer {
+    @apply flex flex-col items-center justify-center p-10;
+  }
+  
+  .errorMessage{
+    @apply text-primary text-sm text-center md:text-xl my-2
+  }
+  .button{
+    @apply font-semibold mx-1 my-6 text-sm  rounded-lg   md:text-lg
+  }
+
+  .tryAgainButton{
+    @apply bg-ninth text-primary font-semibold mx-1 my-6 text-sm rounded-lg  md:text-lg
+  }

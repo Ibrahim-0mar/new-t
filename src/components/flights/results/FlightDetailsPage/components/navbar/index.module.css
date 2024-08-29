@@ -1,0 +1,28 @@
+.upper {
+  @apply flex justify-between px-20 py-3 max-sm:px-5;
+}
+.upper a {
+  @apply flex items-center justify-center align-middle text-primary hover:text-sixth;
+}
+.upper svg {
+  @apply rtl:rotate-180;
+}
+.lower {
+  @apply flex items-center justify-center bg-fourthiary py-3 text-center text-fourthiary;
+}
+.middleDot {
+  @apply align-middle  text-base md:mx-2 md:text-3xl;
+}
+.lower h1 {
+  @apply inline text-xs font-semibold md:mx-3 md:text-2xl;
+}
+.lower > img {
+  @apply mx-2 inline;
+}
+.lower > span {
+  @apply mx-2 inline text-[9px] md:text-base;
+}
+
+/* .mobileFooterPlacement {
+  @apply mx-auto my-2 h-[50px] !w-[280px] lg:hidden;
+} */

@@ -1,0 +1,11 @@
+.header {
+  @apply text-3xl;
+}
+
+.faqsHeading {
+  @apply text-xl font-bold text-primary lg:text-3xl;
+}
+
+.faqsParagraph {
+  @apply mb-6 mt-2 font-semibold text-primary;
+}

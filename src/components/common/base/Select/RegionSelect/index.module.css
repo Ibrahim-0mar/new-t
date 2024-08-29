@@ -1,0 +1,24 @@
+.regionRoot{
+  @apply  flex justify-center
+}
+.regionContent{
+    @apply w-full
+}
+.regionInput{
+    @apply flex cursor-pointer justify-between border-2 bg-secondary max-h-12 !p-0 
+}
+.innerInput{
+    @apply bg-transparent border-0 outline-none w-full h-full text-center
+}
+.flagImage{
+    @apply ms-5  rounded-full
+}
+.selectIcon{
+    @apply px-2
+}
+.itemContainer{
+    @apply w-full
+}
+.highLight{
+    @apply bg-blue-300
+}

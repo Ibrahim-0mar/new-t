@@ -1,0 +1,19 @@
+.container {
+  @apply flex flex-col items-start justify-between border-b border-primary py-2.5;
+}
+
+.buttonContainer {
+  @apply flex w-full items-center justify-between;
+}
+
+.buttonContainer > p {
+  @apply text-base flex font-medium capitalize;
+}
+
+.button {
+  @apply p-0 text-base font-medium text-sixth  duration-200 ease-in-out hover:opacity-80;
+}
+
+.flightNumber {
+  @apply text-base capitalize font-medium mb-1;
+}

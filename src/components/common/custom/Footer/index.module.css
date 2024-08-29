@@ -1,0 +1,51 @@
+.footerRoot {
+  @apply mt-[3%]  w-full  bg-fourthiary pb-7 ;
+}
+.footerMainSectios {
+  @apply w-full grid-flow-col   grid-cols-4 pb-10  pt-5 lg:grid lg:pt-20;
+}
+.footerMainSectios h4 {
+  @apply mt-5  text-base font-medium text-fifth lg:text-2xl;
+}
+.footerMainSectios ul {
+  @apply mt-4;
+}
+.footerMainSectios li {
+  @apply mt-2 text-base  text-eleventh lg:text-lg;
+}
+.privacySection {
+  @apply flex items-center justify-center;
+}
+.privacySection ul {
+  @apply flex text-sm text-eleventh lg:text-sm;
+}
+.privacySection ul li:nth-child(2) {
+  @apply ml-2 mr-2 lg:ml-10 lg:mr-10;
+}
+.socialSection {
+  @apply my-3 flex items-center justify-center;
+}
+.inputsWrapper {
+  @apply relative z-50;
+}
+.socialIcons {
+  @apply flex items-center justify-between;
+}
+.socialIcons img {
+  @apply ml-2 mr-2 cursor-pointer;
+}
+.socialIconContainer {
+  @apply flex h-11 w-11 items-center justify-center;
+}
+.descktopSections {
+  @apply hidden lg:block;
+}
+/* .socialIcon {
+  @apply max-h-5 max-w-5 lg:max-h-8 lg:max-w-8;
+} */
+.mobileSections {
+  @apply flex !items-start  text-start lg:hidden;
+}
+.accordionIcon {
+  @apply -mb-7 ms-2 !text-fifth;
+}

@@ -1,0 +1,12 @@
+.mainContainer {
+  @apply my-10;
+}
+.mainContainer > h2 {
+  @apply text-3xl font-medium text-primary max-md:text-2xl;
+}
+.container {
+  @apply my-3 flex-col rounded-xl border-[1px] border-seventh border-opacity-50 py-1;
+}
+.moreDetails {
+  @apply flex items-center justify-center text-xl font-medium text-primary;
+}

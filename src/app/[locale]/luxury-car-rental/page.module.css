@@ -1,0 +1,13 @@
+.container {
+  @apply bg-primary;
+}
+.faqsContainer {
+  @apply mt-6 lg:mt-0 py-5 text-primary;
+}
+.faqsHeading {
+  @apply text-xl font-bold text-primary lg:text-3xl;
+}
+
+.faqsParagraph {
+  @apply mb-6 mt-2 font-semibold text-primary;
+}

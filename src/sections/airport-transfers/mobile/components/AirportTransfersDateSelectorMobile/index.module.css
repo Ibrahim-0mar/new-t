@@ -1,0 +1,43 @@
+.datesContainer {
+  @apply flex w-full justify-between gap-2 px-5 pb-2 text-lg font-medium text-black;
+}
+.dateInput {
+  @apply flex h-fit items-center justify-center gap-1 border-[1px] border-primary bg-secondary p-3 text-sm;
+}
+.calenderIcon {
+  @apply text-primary;
+}
+.dateSelect {
+  @apply fixed inset-x-0 bottom-0 z-[200] h-[100svh] w-full space-y-3 overflow-y-scroll rounded-t-xl bg-secondary text-primary shadow-[0px_3px_6px_1px_rgb(0,0,0,0.16)] lg:hidden;
+}
+.dateAnimate {
+  @apply animate-slideUp;
+}
+.dateSelectContainer {
+  @apply m-3 flex items-center gap-[15%] rounded-t-3xl border-[1px] border-primary px-4 py-2;
+}
+.departure {
+  @apply text-xl font-medium text-black;
+}
+.placeHolder {
+  @apply text-seventh opacity-50;
+}
+
+.calendarContainer {
+  @apply m-0 flex w-full flex-col items-center justify-center p-0 ;
+}
+.actionsContainer {
+  @apply fixed inset-x-0 bottom-0 z-[300] flex justify-center gap-3 bg-secondary py-2 transition-all delay-100 duration-300 ease-in-out;
+}
+.cancelBtn {
+  @apply self-center rounded-xl bg-tertiary px-7 py-1;
+}
+.doneBtn {
+  @apply self-center rounded-xl bg-fifth px-7 py-1;
+}
+.addReturnBtn {
+  @apply h-full w-full p-0;
+}
+.shdowBox {
+  @apply shadow-[inset_0px_3px_6px_0px_rgb(0,0,0,0.16)];
+}

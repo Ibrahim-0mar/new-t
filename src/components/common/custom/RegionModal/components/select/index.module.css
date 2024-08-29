@@ -1,0 +1,56 @@
+
+.inputContainer {
+  @apply flex flex-col gap-1.5 text-primary
+}
+
+.inputContainer.error {
+  @apply text-red-500
+}
+
+.inputContainer.disabled {
+  @apply pointer-events-none opacity-50
+}
+
+.label {
+  @apply flex items-center gap-1.5 font-semibold
+}
+
+.label .errorMessage {
+  @apply text-xs md:text-sm text-red-500 filter-none flex items-center gap-1
+}
+
+.inputField {
+  @apply border border-primary/40 rounded-md flex focus-within:border-sixth transition-colors relative
+}
+
+.inputField.error {
+  @apply border-red-500/40
+}
+
+.inputField > div {
+  @apply flex items-center ps-2 flex-grow
+}
+
+.inputField input {
+  @apply rounded-md px-2 py-2 outline-none text-start flex-grow
+}
+
+.inputField > button {
+  @apply px-2 text-zinc-400
+}
+
+.inputField > button.error {
+  @apply text-red-500
+}
+
+.dropdown {
+  @apply absolute w-full flex flex-col gap-1 bg-white rounded-md text-base border border-primary/40 overflow-auto max-h-52 z-10
+}
+
+.dropdown li > button {
+  @apply px-3 py-2 w-full text-start transition-colors hover:bg-zinc-200 focus:outline-none focus:bg-zinc-200
+}
+
+.dropdown li > button.active {
+  @apply text-sixth font-semibold
+}

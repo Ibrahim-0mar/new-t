@@ -1,0 +1,18 @@
+.button {
+  @apply inline-flex  items-center justify-center whitespace-nowrap rounded px-4 py-2 transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-primary  disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50;
+}
+
+.primary {
+  @apply bg-seventh text-fourthiary  hover:bg-opacity-80;
+}
+.secondary {
+  @apply bg-fifth text-primary  hover:bg-opacity-80;
+}
+
+.outline {
+  @apply border border-primary bg-none text-primary hover:bg-opacity-80;
+}
+
+.graphite {
+  @apply bg-zinc-300 hover:bg-opacity-80
+}

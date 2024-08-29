@@ -1,0 +1,14 @@
+.itemComponent {
+  @apply mx-[0.5px] !mt-7 mb-[9px] w-full border-b-[1px] py-1 last:border-b-0;
+}
+
+.label {
+  @apply me-4 w-full cursor-pointer pb-2 font-bold max-sm:text-base;
+}
+
+.itemsContainer {
+  @apply rounded-[13px] border-[0.5px] bg-[#fcfcfc] px-[15.5px] py-[17px];
+}
+.chevronLabel {
+  @apply self-start;
+}

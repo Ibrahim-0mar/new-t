@@ -1,0 +1,18 @@
+.itemContainer {
+  @apply cursor-pointer p-2 text-xl;
+}
+.trigger {
+  @apply flex items-center p-2 text-sm font-medium text-primary;
+}
+.icon {
+  @apply text-xl text-black;
+}
+.popup {
+  @apply w-[20%] p-5;
+}
+.contentContainer {
+  @apply absolute z-10 mt-1  rounded-xl bg-secondary  p-3 shadow-xl;
+}
+.listItem {
+  @apply flex cursor-pointer flex-col px-3 py-2;
+}

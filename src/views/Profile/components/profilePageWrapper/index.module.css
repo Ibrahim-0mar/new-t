@@ -1,0 +1,3 @@
+.mainContainer {
+  @apply flex flex-col items-center border-y-[1px] border-seventh border-opacity-60;
+}

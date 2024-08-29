@@ -1,0 +1,15 @@
+.heading {
+  @apply text-3xl font-medium text-primary max-md:text-xl max-[350px]:text-base;
+}
+.dealsContainer {
+  @apply my-3 grid grid-cols-2 gap-4 text-primary max-md:flex max-md:flex-col;
+}
+.moreDealsContainer {
+  @apply my-3 hidden grid-cols-2 gap-4 text-primary max-md:flex max-md:flex-col;
+}
+.moreDeals {
+  @apply flex items-center justify-center text-xl font-medium text-primary max-md:text-lg;
+}
+.lessDeals {
+  @apply hidden items-center justify-center text-xl font-medium text-primary max-md:text-lg;
+}

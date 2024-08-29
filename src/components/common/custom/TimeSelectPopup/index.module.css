@@ -1,0 +1,40 @@
+.container {
+  @apply flex w-full flex-col items-center justify-center  pt-2;
+}
+.triggerContainer {
+  @apply h-full;
+}
+.trigger {
+  @apply flex h-full items-center pe-2  font-medium text-secondary;
+}
+.icon {
+  @apply text-xl text-black;
+}
+
+.errorMessage {
+  @apply ms-2 mt-2 border-t-[0.5px] pt-1 text-[11px] text-error;
+}
+.popup {
+  @apply w-10/12;
+}
+
+.timeArrows {
+  @apply mt-3 flex w-full justify-center gap-5 border-t-2 pt-2;
+}
+
+.arrowsContainer {
+  @apply flex flex-col text-center text-base font-semibold text-sixth;
+}
+.arrowButton {
+  @apply mx-2 flex flex-col items-center justify-center px-0 py-1;
+}
+.icon {
+  @apply text-sixth;
+}
+.button {
+  @apply w-[180px] rounded-xl;
+}
+
+.buttonsContainer .button {
+  @apply mt-2;
+}

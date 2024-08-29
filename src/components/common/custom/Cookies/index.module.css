@@ -1,0 +1,19 @@
+.cookiesContainer {
+  @apply fixed bottom-0 z-[100] flex w-full translate-y-[calc(100%_+_1.5rem)] flex-col items-center justify-center gap-1 bg-seventh p-4 text-center text-white transition-transform duration-500 ease-out lg:bottom-2 lg:right-2 lg:min-h-64 lg:w-[406px] lg:rounded-md;
+}
+
+.headline {
+  @apply text-2xl font-bold lg:text-[1.65rem];
+}
+
+.link {
+  @apply underline;
+}
+
+.description {
+  @apply lg:px-14;
+}
+
+.button.button {
+  @apply mt-2 rounded-full bg-primary py-1 font-semibold text-sixth shadow-lg hover:bg-fifth hover:text-primary;
+}

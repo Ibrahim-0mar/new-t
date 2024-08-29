@@ -1,0 +1,18 @@
+.container {
+  @apply mt-10  text-seventh;
+}
+.header {
+  @apply mb-2 mt-10 font-bold text-secondary   lg:text-2xl;
+}
+.trendingCard {
+  @apply flex  flex-wrap;
+}
+.content {
+  @apply col-span-4 mb-4 me-2 flex w-full flex-wrap  items-center rounded-lg  bg-fourthiary py-2  text-white lg:w-[32%];
+}
+.destination {
+  @apply w-8/12 border-e-2 px-6  py-3 text-xs font-medium lg:text-base;
+}
+.price {
+  @apply w-4/12 p-3 text-xs font-medium text-fifth lg:text-base;
+}

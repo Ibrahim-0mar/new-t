@@ -1,0 +1,15 @@
+.wrapper {
+  @apply !py-0 !pt-1 !pb-3
+}
+
+.wrapper button p {
+  @apply !text-lg !tracking-wide !font-semibold
+}
+
+.valuesContainer {
+  @apply flex justify-between;
+}
+
+.valuesContainer>span {
+  @apply text-sm font-medium text-seventh;
+}

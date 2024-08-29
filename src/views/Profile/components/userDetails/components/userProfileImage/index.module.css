@@ -1,0 +1,9 @@
+.photoContainer {
+  @apply relative aspect-square h-36 rounded-full bg-white shadow-sm;
+}
+.photoContainer > img {
+  @apply rounded-full bg-gray-200;
+}
+.photoEdit {
+  @apply absolute bottom-0 right-5 w-fit p-0;
+}

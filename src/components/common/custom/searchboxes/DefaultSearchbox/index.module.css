@@ -1,0 +1,20 @@
+.content {
+  @apply w-full mt-[7%] items-center justify-center self-center rounded-[22px] bg-secondary text-center  font-medium shadow-lg;
+}
+.tabsContainer {
+  @apply flex   border-b-2 h-fit p-4 pb-0;
+}
+
+.tab {
+  @apply w-fit   me-10 flex items-center justify-center pb-1 px-1 text-xl font-medium text-primary;
+}
+.active {
+  @apply  text-sixth decoration-solid underline-offset-1 border-b-4 rounded-b-sm border-sixth;
+}
+
+.activeLine {
+  @apply -mb-8 h-1.5 rounded-xl w-full  bg-seventh;
+}
+.icon {
+  @apply me-2 text-4xl;
+}

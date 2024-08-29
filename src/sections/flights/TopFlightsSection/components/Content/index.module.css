@@ -1,0 +1,10 @@
+.header {
+  @apply whitespace-nowrap rounded-2xl p-3 px-5 text-sm font-medium text-eighth  lg:text-base;
+}
+.activeTab {
+  @apply whitespace-nowrap rounded-full bg-fifth p-3 px-5;
+}
+
+.tabsContainer {
+  @apply flex;
+}

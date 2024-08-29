@@ -1,0 +1,16 @@
+.container {
+  @apply my-5;
+}
+.heading {
+  @apply text-xl font-semibold text-tenth;
+}
+.paragraph {
+  @apply text-sm text-tenth;
+}
+
+.socialAccounts {
+  @apply mt-5 flex gap-3;
+}
+.socialAccounts > div {
+  @apply flex w-[150px] items-center justify-between rounded-md border-2 p-2;
+}

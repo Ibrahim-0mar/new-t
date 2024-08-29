@@ -1,0 +1,51 @@
+.mainContainer {
+  @apply mb-8 mt-2 flex flex-col items-center justify-center rounded-xl px-4 shadow-[0px_3px_6px_0px_rgba(0,0,0,0.16)] lg:w-[60%];
+}
+.detailsHeader {
+  @apply mt-5 flex w-full items-center justify-between text-sm font-bold text-primary md:text-2xl;
+}
+.agentLogo {
+  @apply flex  w-[25%] items-end justify-end;
+}
+
+.detailsFooter {
+  @apply mb-5 flex w-full flex-col items-center justify-between;
+}
+
+.legsContainer {
+  @apply col-span-9 w-full flex-col items-start gap-2    pt-1;
+}
+.legContainer {
+  @apply grid  grid-flow-col grid-cols-12 items-center  gap-1 px-3 py-1 md:gap-4;
+}
+.imageContainer {
+  @apply col-span-3  max-h-12 items-center justify-center  gap-1 ps-1 md:flex;
+}
+.dataContainer {
+  @apply col-span-6 flex flex-col;
+}
+.header {
+  @apply mb-4 text-xs font-medium capitalize text-secondary md:text-lg;
+}
+.bookingSite {
+  @apply text-base font-medium text-twelfth md:text-base;
+}
+.costContainer {
+  @apply col-span-3 mt-5 flex w-full items-end justify-end;
+}
+.bottomIcons {
+  @apply my-1 flex flex-col items-start justify-start text-xs md:flex-row md:items-center;
+}
+.iconSection {
+  @apply me-4 flex items-center text-[10px] md:text-sm;
+}
+.icon {
+  @apply me-[2px] mt-[2px] text-sixth;
+}
+.otherText {
+  @apply -mt-0.5 text-[8px] font-light text-seventh lg:-mt-1.5 lg:text-[10px];
+}
+
+.flightCost {
+  @apply flex gap-1 text-sm font-bold text-sixth md:text-xl;
+}

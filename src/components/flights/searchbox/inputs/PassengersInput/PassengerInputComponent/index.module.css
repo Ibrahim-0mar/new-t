@@ -1,0 +1,24 @@
+.rowContainer {
+  @apply flex  items-center p-1;
+}
+.passengerIcon {
+  @apply me-2 w-[15%] text-2xl;
+}
+.headerContainer {
+  @apply flex w-[55%] flex-col;
+}
+.header {
+  @apply text-sm !text-start font-normal text-black;
+}
+.subHeader {
+  @apply text-[8px] text-start text-seventh;
+}
+.counterContainer {
+  @apply me-1 flex w-[45%] items-center justify-between;
+}
+.disabledButton {
+  @apply flex h-4 w-4 items-center justify-center rounded-md border-[0.5px] border-primary bg-secondary text-lg font-medium text-primary;
+}
+.button {
+  @apply flex h-4 w-4 items-center justify-center rounded-md bg-fourthiary text-lg font-medium text-tertiary;
+}

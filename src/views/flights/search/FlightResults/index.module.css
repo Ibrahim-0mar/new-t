@@ -1,0 +1,31 @@
+.container {
+  @apply flex  h-full flex-col items-center text-seventh;
+}
+.loaderContainer {
+  @apply m-1 flex w-full items-start text-sm;
+}
+.sortContainer {
+  @apply mb-4 flex min-h-max w-full items-center  rounded-md bg-secondary  pt-2 text-sm  shadow-sm  shadow-seventh;
+}
+.sortCard {
+  @apply flex w-1/3 cursor-pointer flex-col items-center justify-start  rounded-none border-e-[1px] border-secondary p-0 pb-3 ps-3 text-[10px] font-semibold  text-seventh md:text-sm lg:w-[26%] lg:items-start;
+}
+.sortHeader {
+  @apply ms-0.5 lg:mb-2;
+}
+.sortData {
+  @apply -ms-[0.5%] text-end  flex w-full flex-col lg:flex-row;
+}
+.sortPrice {
+  @apply me-1;
+}
+
+.activeSort {
+  @apply border-b-4 border-b-fifth font-bold text-secondary;
+}
+.otherSorts {
+  @apply lg:w-[22%];
+}
+.showMoreButton {
+  @apply my-6 self-center rounded-md bg-ninth px-6 py-2 text-center text-xs font-medium text-primary shadow-sm hover:bg-fifth  hover:text-primary md:text-lg;
+}

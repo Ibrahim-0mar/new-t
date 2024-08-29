@@ -1,0 +1,10 @@
+.text {
+  @apply text-sm font-semibold capitalize text-tenth;
+}
+.subText {
+  @apply text-xs font-normal text-seventh;
+}
+
+.filtersAd {
+  @apply sticky top-24 my-2 rounded-md bg-gray-200 max-md:hidden;
+}

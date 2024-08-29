@@ -1,0 +1,38 @@
+.container {
+  @apply mx-4;
+}
+.cabinClassBtn {
+  @apply flex gap-0.5 p-0 text-sm font-medium text-primary lg:hidden;
+}
+
+.cabinClassMenu {
+  @apply fixed bottom-0 z-50 min-h-[30vh] w-full space-y-3 rounded-t-2xl bg-secondary px-4 py-3 text-primary shadow-[0px_3px_6px_1px_rgb(0,0,0,0.16)];
+}
+
+.cabinClassAnimate {
+  @apply animate-slideUp;
+}
+.optionLabel {
+  @apply flex w-full justify-between text-lg;
+}
+.optionContainer {
+  @apply text-xs font-medium;
+}
+.optionsHeading {
+  @apply font-medium;
+}
+.customRadioIcon {
+  @apply mr-2 inline-block h-5 w-5 rounded-full border-[1px] border-gray-500;
+}
+.activeCustomRadioIcon {
+  @apply border-white bg-seventh shadow-[0px_0px_0px_1px_rgb(43,166,222)];
+}
+.actionsContainer {
+  @apply mt-4 flex justify-center gap-3;
+}
+.cancelBtn {
+  @apply self-center rounded-xl bg-tertiary px-7 py-1;
+}
+.doneBtn {
+  @apply self-center rounded-xl bg-fifth px-7 py-1;
+}

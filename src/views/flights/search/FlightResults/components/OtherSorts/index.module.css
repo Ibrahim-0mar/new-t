@@ -1,0 +1,31 @@
+.otherSorts {
+  @apply hidden w-full cursor-pointer items-center justify-center gap-1 px-2 text-center text-[10px] font-medium text-secondary  lg:flex lg:text-sm;
+}
+.icon {
+  @apply me-1;
+}
+.itemContainer {
+  @apply cursor-pointer p-2 text-xl;
+}
+.trigger {
+  @apply flex items-center p-2 text-sm font-medium text-primary;
+}
+.icon {
+  @apply text-xl text-black;
+}
+.popup {
+  @apply w-[20%]
+  p-5;
+}
+.contentContainer {
+  @apply absolute  right-0 z-10 mt-1  w-[250px]  rounded-xl bg-secondary p-3 shadow-xl lg:right-auto;
+}
+.contentContainerMobile {
+  @apply fixed inset-0 z-[101] bg-secondary p-3 pt-0;
+}
+.listItem {
+  @apply flex cursor-pointer flex-col px-3 py-2;
+}
+.listItemMobile {
+  @apply mb-4 flex cursor-pointer flex-col px-1 text-xl;
+}

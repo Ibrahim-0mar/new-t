@@ -1,0 +1,6 @@
+.container {
+  @apply w-full bg-eighth;
+}
+.container h2 {
+  @apply mb-5 text-4xl font-medium text-primary;
+}

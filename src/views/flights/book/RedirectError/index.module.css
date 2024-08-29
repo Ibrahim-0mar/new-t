@@ -1,0 +1,10 @@
+.mainContainer {
+  @apply flex flex-col items-center justify-center p-10;
+}
+
+.errorMessage{
+  @apply text-primary text-sm text-center md:text-xl my-2
+}
+.redirectButton{
+  @apply font-semibold my-6 text-sm  md:text-lg
+}

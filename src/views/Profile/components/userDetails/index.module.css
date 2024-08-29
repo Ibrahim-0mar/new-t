@@ -1,0 +1,29 @@
+.summaryContainer {
+  @apply flex justify-between;
+}
+
+.leftSide {
+  @apply w-[45%] text-sm text-tenth;
+}
+.leftSide > h1 {
+  @apply my-5 text-4xl font-medium;
+}
+.leftSide > div {
+  @apply flex justify-between font-medium;
+}
+.leftSide > div > div {
+  @apply flex flex-col gap-2;
+}
+.airportSpan {
+  @apply flex items-center justify-between rounded-[4px] border-[1px] border-primary px-[2px] shadow-[0px_3px_6px_0px_rgba(0,0,0,0.16)];
+}
+
+.photoContainer {
+  @apply relative aspect-square h-36 rounded-full bg-white shadow-sm;
+}
+.photoContainer > img {
+  @apply rounded-full bg-gray-200;
+}
+.photoEdit {
+  @apply absolute bottom-0 right-5 w-fit p-0;
+}

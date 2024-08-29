@@ -1,0 +1,33 @@
+.selectButtonsWrapper {
+  @apply flex items-center justify-between;
+}
+.selectButtonsWrapper > button {
+  @apply p-0 font-roboto text-sm text-sixth underline underline-offset-4 duration-200 ease-in-out hover:opacity-80;
+}
+
+.bookingSiteLabel {
+  @apply flex w-full items-center justify-between;
+}
+
+.bookingSiteLabel > div {
+  @apply flex items-center justify-center gap-2;
+}
+.bookingSiteLabel > div > label {
+  @apply flex cursor-pointer items-center justify-center gap-2;
+}
+
+.bookingSiteLabel > div > label > p:first-of-type {
+  @apply text-xs font-medium capitalize;
+}
+
+.bookingSiteLabel > div > p:first-of-type {
+  @apply hidden cursor-pointer text-xs font-bold underline underline-offset-4 group-hover:inline-block;
+}
+
+.bookingSiteLabel > p {
+  @apply text-xs font-medium text-seventh;
+}
+
+.showMoreButton {
+  @apply mt-2 px-0 font-roboto text-sm capitalize text-sixth duration-200 ease-in-out hover:opacity-80;
+}

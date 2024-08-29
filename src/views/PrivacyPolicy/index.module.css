@@ -1,0 +1,23 @@
+.header {
+  @apply mb-12 flex justify-between gap-3 max-lg:my-5;
+}
+.header div {
+  @apply flex flex-col justify-center;
+}
+.header h1 {
+  @apply text-4xl font-medium text-[#003a4f] max-lg:hidden;
+}
+.header p {
+  @apply mt-3 text-2xl leading-[1.52] text-primary max-lg:text-sm max-sm:text-sm;
+}
+.header img {
+  @apply max-lg:w-[30%];
+}
+
+.container {
+  @apply  w-fit flex-col items-center gap-5 text-[#0a425c];
+}
+
+.heading {
+  @apply mb-2 mt-6 w-full font-bold lg:text-xl;
+}

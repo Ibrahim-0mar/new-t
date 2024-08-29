@@ -1,0 +1,26 @@
+.container {
+  @apply h-auto items-center px-7 py-5;
+}
+.rooms {
+  @apply w-[30%];
+}
+
+.bottomSection {
+  @apply flex w-full items-start justify-start gap-2.5;
+}
+
+.destinationContainer {
+  @apply flex w-[30%] flex-col items-start justify-center;
+}
+
+.dateContainer {
+  @apply flex items-end justify-between w-[30%]
+}
+
+.errorMessage {
+  @apply mt-1 text-sm text-red-500;
+}
+
+.searchButton {
+  @apply mx-2 w-[12%] justify-center rounded-full bg-fifth px-4 py-2.5 text-center text-lg  font-semibold text-primary hover:text-fourthiary;
+}

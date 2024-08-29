@@ -1,0 +1,10 @@
+.header {
+  @apply me-3 rounded-2xl p-3 !text-xs font-medium text-eighth hover:bg-fifth lg:text-base;
+}
+.activeTab {
+  @apply rounded-full bg-fifth;
+}
+
+.cardsContainer {
+  @apply mt-3 hidden w-full grid-cols-4 gap-5 lg:grid xl:grid-cols-5;
+}

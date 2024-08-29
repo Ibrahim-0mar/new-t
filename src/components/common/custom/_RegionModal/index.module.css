@@ -1,0 +1,48 @@
+.container {
+  @apply min-w-fit;
+}
+
+.regionButton {
+  @apply hidden h-8 justify-between !rounded-full border-[1px] border-primary bg-tertiary px-2 py-1  text-primary max-lg:bg-secondary md:flex;
+}
+.regionButtonBg {
+  @apply bg-transparent transition-all duration-500 ease-in-out;
+}
+.regionButton > span {
+  @apply self-center;
+}
+
+/* when scrolling show deark line */
+.regionButtonBg .verticalLine {
+  @apply border-primary;
+}
+.languageText {
+  @apply mx-1.5 border-x border-primary px-1.5 text-base;
+}
+.countryText {
+  @apply text-base;
+}
+.placeholder {
+  @apply mx-1 h-3 w-6 animate-pulse bg-slate-200;
+}
+.flag {
+  @apply h-full w-full self-center object-cover object-center;
+}
+.regionImage {
+  @apply m-auto  my-4;
+}
+.modalStyle {
+  @apply p-5 pt-0;
+}
+.inputWrapper {
+  @apply relative;
+}
+.doneButton {
+  @apply mt-10 h-[45px] w-full rounded-[8px] bg-[#d6de29] text-lg font-medium;
+}
+.creatButton {
+  @apply mt-[30px] font-[500] text-[#377bbb];
+}
+.creatSection {
+  @apply flex justify-center;
+}

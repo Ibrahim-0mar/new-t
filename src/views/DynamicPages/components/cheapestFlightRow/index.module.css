@@ -1,0 +1,6 @@
+.container {
+  @apply grid w-full grid-cols-12 items-center border-b-2 py-2 pr-1 last:border-none;
+}
+.month {
+  @apply col-span-1 text-center text-lg font-medium text-primary max-md:col-span-2;
+}

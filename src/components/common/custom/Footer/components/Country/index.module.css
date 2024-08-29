@@ -1,0 +1,15 @@
+.inputClassName {
+  @apply mt-5 flex h-[40px] items-center justify-between rounded-2xl border-[1px] border-fourthiary bg-transparent text-fourthiary;
+}
+.options {
+  @apply absolute top-[52px] z-50 max-h-52 cursor-pointer overflow-y-scroll rounded-xl border-[1px] border-fourthiary bg-fourthiary p-6;
+}
+.inputTitle {
+  @apply mb-2 mt-3 text-base font-medium text-primary;
+}
+.itemClassName {
+  @apply flex flex-col p-2 px-3 py-2 text-sm;
+}
+.optionsTitle {
+  @apply font-medium text-fourthiary;
+}

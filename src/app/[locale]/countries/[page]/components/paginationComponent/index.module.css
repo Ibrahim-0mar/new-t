@@ -1,0 +1,18 @@
+.container {
+    @apply my-5 flex w-20 items-center gap-1 lg:w-fit  justify-center lg:gap-3;
+  }
+  
+  .paginationLink {
+    @apply h-fit rounded-lg bg-fourthiary px-3 py-1 text-tertiary;
+  }
+  .diasbled {
+    @apply cursor-not-allowed opacity-50;
+  }
+  
+  .page {
+    @apply rounded-full bg-primary px-4 py-2 text-primary;
+  }
+  .activePage {
+    @apply bg-fifth text-white;
+  }
+  

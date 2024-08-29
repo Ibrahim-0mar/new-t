@@ -1,0 +1,6 @@
+.container {
+  @apply my-10 flex flex-col gap-5 pt-20 text-primary;
+}
+.heading {
+  @apply text-2xl font-semibold max-md:text-lg;
+}

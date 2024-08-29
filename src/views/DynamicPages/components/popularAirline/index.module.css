@@ -1,0 +1,28 @@
+.container {
+  @apply text-primary last:border-none md:border-b-2 md:pb-2 md:pt-6;
+}
+.rowItem {
+  @apply grid grid-cols-5 items-center py-2 max-md:hidden;
+}
+.colItem {
+  @apply text-center font-medium;
+}
+.subGrid {
+  @apply py-0;
+}
+.viewed {
+  @apply col-start-5 text-center text-xs;
+}
+/* ========================================================= */
+.dealCard {
+  @apply mt-3 flex justify-between rounded-xl border-[1px] border-seventh  px-3 py-2 shadow-[inset_0px_3px_6px_0px_rgba(0,0,0,0.16)] md:hidden;
+}
+.col {
+  @apply flex flex-col items-start;
+}
+.bold {
+  @apply text-xl font-medium;
+}
+.reguler {
+  @apply text-lg;
+}

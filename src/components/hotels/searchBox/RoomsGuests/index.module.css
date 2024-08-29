@@ -1,0 +1,31 @@
+.container {
+  @apply px-1 py-3;
+}
+
+.triggerContainer {
+  @apply flex flex-row items-center justify-center p-2 text-base border rounded-full px-5 border-primary w-full cursor-pointer;
+}
+
+.trigger {
+  @apply flex flex-row items-center justify-center text-base px-5 w-full;
+}
+
+.icon {
+  @apply text-xl text-black;
+}
+
+.content {
+  @apply !w-[10%];
+}
+
+.contentStyle {
+  @apply !w-[10%];
+}
+
+.errorMessage {
+  @apply ms-2 mt-2 border-t-[0.5px] pt-1 text-[11px] text-error;
+}
+
+.popup {
+  @apply w-10/12;
+}

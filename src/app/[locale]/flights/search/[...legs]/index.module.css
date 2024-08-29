@@ -1,0 +1,57 @@
+.container {
+  @apply min-h-screen bg-primary;
+}
+.contentContainer {
+  @apply flex h-full w-full space-y-3  lg:!px-[3%];
+}
+.filtersContainer {
+  @apply order-1 hidden w-[20%] lg:block;
+}
+.filtersMobileContainer {
+  @apply bottom-0 left-0 right-0 top-0 z-[99999] overflow-y-auto bg-secondary transition-all duration-500 ease-out lg:hidden;
+}
+.resultsContainer {
+  @apply order-2 mx-0 w-full lg:mx-4;
+}
+.adsContainer {
+  @apply order-3 hidden min-w-fit pt-5 lg:block;
+}
+
+.noDataText {
+  @apply mb-6 text-center text-lg font-medium;
+}
+.loadingText{
+  @apply my-6 text-center text-lg font-medium;
+}
+
+.loaderContainer {
+  @apply flex h-[80vh] w-[83%] items-center justify-center;
+}
+.noDataContainer {
+  @apply m-16 flex w-[83%] flex-col px-[5%];
+}
+.skeleton {
+  @apply me-2 mt-3 hidden h-full w-3/12 lg:block;
+}
+.lottieContainer {
+  @apply me-2 mt-[5%] h-full w-full flex-col items-center justify-center;
+}
+
+.filterButton {
+  @apply w-full rounded-lg bg-[#ffffff] px-4 py-2.5 text-center text-lg font-semibold text-black drop-shadow-md hover:text-fourthiary;
+}
+
+.mobilePlacement {
+  @apply mx-auto inline-block h-[50px] w-full animate-pulse rounded-md bg-gray-200 lg:hidden;
+}
+
+.adsHeader {
+  @apply my-3 text-center font-medium text-primary;
+}
+
+.destkTopFooterPlacement {
+  @apply mx-auto my-2 hidden h-[250px] w-[744.5px] grid-cols-2 gap-10 pr-8 lg:grid;
+}
+.mobileFooterPlacement {
+  @apply my-2 lg:hidden;
+}

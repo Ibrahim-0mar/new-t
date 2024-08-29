@@ -1,0 +1,19 @@
+.wrapper {
+  @apply !py-0
+}
+
+.wrapper button p {
+  @apply !text-lg !tracking-wide !font-semibold
+}
+
+.container {
+  @apply flex items-center justify-start gap-2 mb-3
+}
+
+.input {
+  @apply h-4 w-4
+}
+
+.label {
+  @apply flex cursor-pointer items-center gap-1 font-medium
+}

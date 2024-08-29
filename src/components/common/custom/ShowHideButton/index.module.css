@@ -1,0 +1,3 @@
+.showButton {
+  @apply mt-2 px-0 text-sm capitalize text-sixth duration-200 ease-in-out hover:opacity-80;
+}

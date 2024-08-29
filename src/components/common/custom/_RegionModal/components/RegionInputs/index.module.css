@@ -1,0 +1,37 @@
+.regionButton {
+  @apply h-8 w-32 justify-between rounded-[22px] border-[1px] border-primary bg-tertiary px-3 pt-1  text-primary max-lg:bg-secondary md:flex;
+}
+.regionButtonBg {
+  @apply bg-transparent transition-all duration-500 ease-in-out;
+}
+.regionButton > span {
+  @apply self-center;
+}
+
+.verticalLine {
+  @apply -mt-1 h-5 border-l-[1px] border-fourthiary;
+}
+.regiontext {
+  @apply -mt-[5px] text-base;
+}
+.flag {
+  @apply mb-1 self-center;
+}
+.regionImage {
+  @apply m-auto h-[170px] w-52;
+}
+.modalStyle {
+  @apply p-5 pt-0;
+}
+.inputWrapper {
+  @apply relative;
+}
+.doneButton {
+  @apply mt-10 h-[45px] w-full rounded-[8px] bg-[#d6de29] text-lg font-medium;
+}
+.creatButton {
+  @apply mt-[30px] font-[500] text-[#377bbb];
+}
+.creatSection {
+  @apply flex justify-center;
+}

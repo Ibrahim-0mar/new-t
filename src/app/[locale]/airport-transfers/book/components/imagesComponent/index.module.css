@@ -1,0 +1,15 @@
+.imagesContainer {
+  @apply flex items-center justify-between w-full lg:w-1/2 mt-5 ;
+}
+.imagesContainer > img {
+  @apply self-center;
+}
+.travolicLogo {
+  @apply  w-[25%];
+}
+.lottieContainer {
+  @apply w-full lg:w-[50%] -z-20;
+}
+.agentLogo {
+  @apply w-[25%] z-50;
+}

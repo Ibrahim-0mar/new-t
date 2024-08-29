@@ -1,0 +1,12 @@
+.container {
+  @apply flex gap-3 font-medium max-md:flex-col max-md:gap-1 max-md:text-center;
+}
+.icon {
+  @apply self-center;
+}
+.title {
+  @apply text-xl max-md:text-sm;
+}
+.value {
+  @apply text-sixth max-md:text-sm;
+}

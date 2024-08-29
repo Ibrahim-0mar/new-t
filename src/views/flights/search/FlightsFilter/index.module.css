@@ -1,0 +1,10 @@
+.text {
+  @apply text-sm font-semibold capitalize text-tenth;
+}
+.subText {
+  @apply text-xs font-normal text-seventh;
+}
+
+.HalfPage {
+  @apply my-2 h-[600px] w-full rounded-md bg-gray-200;
+}

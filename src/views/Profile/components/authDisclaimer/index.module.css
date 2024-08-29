@@ -1,0 +1,10 @@
+.mainContainer {
+  @apply flex flex-col items-center border-y-[1px] border-seventh border-opacity-60;
+}
+
+.disclaimer {
+  @apply my-20 flex flex-col items-center justify-center gap-5 rounded-lg bg-slate-100 px-10 py-5 text-2xl text-primary shadow-[0px_3px_6px_0px_rgba(0,0,0,0.16)];
+}
+.disclaimer > a {
+  @apply rounded-lg bg-fifth px-5 py-2 text-lg font-medium;
+}

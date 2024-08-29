@@ -1,0 +1,57 @@
+.container {
+  @apply h-auto items-center p-3 pb-10;
+}
+.topSectionContainer {
+  @apply flex w-full  justify-between;
+}
+.tabsContainer {
+  @apply flex ;
+}
+.tab {
+  @apply m-2  flex h-fit items-center !rounded-3xl bg-tertiary px-5 py-2  text-sm font-medium;
+}
+.active {
+  @apply bg-fifth bg-opacity-60   font-normal;
+}
+
+.cabinTravellersSection {
+  @apply mx-6 my-3 flex;
+}
+
+.locations {
+  @apply flex gap-2 relative flex-grow-[3]
+}
+
+.locationContainer {
+  @apply flex-grow flex w-[39%] flex-col relative;
+}
+
+.swapLocationsBtn.swapLocationsBtn {
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] rounded-full p-2 bg-white shadow-[0px_3px_9px_0px_rgba(0,0,0,0.16)]
+}
+
+.locationInput {
+  @apply relative  me-1 flex w-full;
+}
+.error {
+  @apply mt-1  text-sm text-error absolute bottom-0 ms-3 translate-y-full;
+}
+
+.datesContainer {
+  @apply mx-1 flex-grow-[2];
+}
+.addDateContainer {
+  @apply flex max-h-[50px] flex-grow items-center justify-center !rounded-full border-[0.5px] border-primary py-1  text-sm;
+}
+.contentContainer {
+  @apply flex w-full;
+}
+.directOnly {
+  @apply m-2 flex items-center justify-start self-start  p-3;
+}
+.directOnlyText {
+  @apply ms-2 text-sm font-normal text-primary;
+}
+.searchButton {
+  @apply mx-2 max-h-12 w-[12%] justify-center !rounded-full bg-fifth px-4 py-2 text-center text-lg  font-semibold text-primary hover:text-fourthiary;
+}

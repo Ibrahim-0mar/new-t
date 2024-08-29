@@ -1,0 +1,17 @@
+.dateInputContainer {
+  @apply mx-1 flex  items-center justify-center  p-1;
+}
+
+.calenderIcon {
+  @apply me-1 text-sixth;
+}
+
+.arrowIcon {
+  @apply text-2xl;
+}
+.disabled {
+  @apply text-seventh;
+}
+.addDateContainer {
+  @apply cursor-pointer justify-center text-base font-medium text-primary;
+}

@@ -1,0 +1,6 @@
+.results {
+  @apply flex w-full flex-col gap-5;
+}
+.properties {
+  @apply flex justify-between font-semibold;
+}

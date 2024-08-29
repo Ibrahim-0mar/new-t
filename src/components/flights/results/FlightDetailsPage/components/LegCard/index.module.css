@@ -1,0 +1,66 @@
+.itenaryContainer {
+  @apply flex h-fit w-full  flex-col rounded-xl pb-5 text-secondary shadow-[0px_3px_6px_0px_rgba(0,0,0,0.2)];
+}
+.downArrow {
+  @apply me-1 cursor-pointer self-start;
+}
+/* ============================================================= */
+.summary {
+  @apply flex w-full justify-between px-2 text-secondary;
+}
+.summaryWithoutArrow {
+  @apply my-2 flex cursor-pointer;
+}
+.summaryWithoutArrow > div:first-of-type {
+  @apply w-full;
+}
+.rotateArrow {
+  @apply rotate-180 duration-300;
+}
+.cardType {
+  @apply pt-1 text-sm font-medium md:text-base  ltr:pl-4 rtl:pr-4;
+}
+.dataSection {
+  @apply flex w-fit flex-col items-start space-y-1 px-1 py-4;
+}
+.flightTime {
+  @apply text-center text-[9px] font-semibold md:text-sm;
+}
+.flightDate {
+  @apply w-full text-xs font-semibold md:text-base;
+}
+.airportName {
+  @apply text-[9px] font-medium md:text-sm;
+}
+.summaryText {
+  @apply ms-3  text-[7px] font-medium text-secondary md:text-xs;
+}
+.hideSummary {
+  @apply hidden;
+}
+.flightTiming {
+  @apply ms-3 flex items-center gap-1 text-[7px] font-medium text-secondary md:text-xs;
+}
+.lowerSection {
+  @apply -mt-2 flex items-center justify-between pe-4;
+}
+.airlinesLogosSection {
+  @apply flex;
+}
+.airlineTooltip {
+  @apply mx-1 flex items-end;
+}
+/* ============================================================= */
+.extraDetails {
+  @apply space-y-1 px-4;
+}
+.extraDetails > span {
+  @apply text-xs md:text-sm;
+}
+.segmentsContainer {
+  @apply py-4;
+}
+
+.detailsButton {
+  @apply flex w-full cursor-pointer items-center justify-center text-base font-medium text-primary hover:text-[#2ba6de] lg:text-xl;
+}

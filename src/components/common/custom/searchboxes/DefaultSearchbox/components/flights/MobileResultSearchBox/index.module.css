@@ -1,0 +1,29 @@
+.mobileSearchBoxForm {
+  @apply flex flex-col lg:hidden;
+}
+.selectionMobileView {
+  @apply flex px-0 py-4 max-[400px]:flex-wrap max-[400px]:gap-y-2 lg:hidden;
+}
+.locations {
+  @apply mb-4 flex flex-col gap-1.5;
+}
+.locationInput {
+  @apply relative flex w-full;
+}
+.swapLocationsBtn {
+  @apply absolute -bottom-5 z-30 h-fit rotate-90 self-center rounded-full bg-white p-2 shadow-[0px_0px_10px_0px_rgba(0,0,0,0.16)] lg:hidden ltr:right-10 rtl:left-10;
+}
+.originInputSection {
+  @apply rounded-b-none rounded-t-3xl border-[1px] border-opacity-80;
+}
+.destinationInputSection {
+  @apply rounded-b-3xl rounded-t-none border-[1px] border-opacity-80;
+}
+
+.searchButton {
+  @apply mx-auto mb-2 w-[90%] justify-center rounded-full bg-fifth px-4 py-2.5 text-center text-lg font-semibold text-primary hover:text-fourthiary;
+}
+
+.errorMessage {
+  @apply mx-5 mt-1 text-sm text-red-500;
+}

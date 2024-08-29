@@ -1,0 +1,11 @@
+.datePickerContainer {
+  @apply mx-1 w-full;
+}
+
+.datesContainer {
+  @apply flex items-center justify-center rounded-full border-[0.5px] border-primary p-1 !text-sm shadow-sm divide-x;
+}
+
+.dayClassName {
+  @apply rounded-none font-poppins font-semibold;
+}

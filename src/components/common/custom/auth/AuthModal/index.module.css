@@ -1,0 +1,11 @@
+.container {
+  @apply px-6 py-5;
+}
+
+.closeButton {
+  @apply absolute right-5 top-4 cursor-pointer px-0 py-0;
+}
+
+.backButton {
+  @apply absolute top-4 cursor-pointer px-0 py-0 rtl:left-5 rtl:rotate-180;
+}

@@ -1,0 +1,18 @@
+.mainContainer {
+  @apply my-10 space-y-5 text-primary;
+}
+.mainContainer > h2 {
+  @apply text-3xl font-medium max-md:text-2xl;
+}
+.mainContainer > h3 {
+  @apply text-xl font-medium max-md:text-lg;
+}
+.answer {
+  @apply ms-3 mt-1 flex flex-col lg:pe-20;
+}
+.answer > p {
+  @apply my-1;
+}
+.answer > p > span {
+  @apply me-1 inline font-semibold max-md:text-sm lg:text-lg;
+}

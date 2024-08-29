@@ -1,0 +1,41 @@
+.menuButton {
+  @apply ml-3 block  md:hidden lg:hidden xl:hidden;
+}
+.menuIcon {
+  @apply text-primary;
+}
+.locationMenuHeader {
+  @apply flex items-center text-black;
+}
+
+.menuContainer {
+  @apply absolute bottom-0 left-0 right-0 top-0 z-[999] min-h-[100vh] w-full space-y-3 rounded-t-xl bg-secondary p-6  text-primary shadow-[0px_3px_6px_1px_rgb(0,0,0,0.16)] lg:hidden;
+}
+.headerContainer {
+  @apply mb-7 flex items-center justify-between;
+}
+.menuAnimate {
+  @apply animate-slideUp;
+}
+.menuContent {
+  @apply my-8 border-b-2 border-seventh border-opacity-40;
+}
+.menuItem {
+  @apply my-2 flex items-center;
+}
+.icon {
+  @apply me-1;
+}
+
+.regionButton {
+  @apply mt-5 flex items-center justify-between !self-center rounded-md  border-[1px] bg-transparent px-5 py-1.5 text-primary shadow-sm   shadow-primary md:flex;
+}
+.regiontext {
+  @apply me-1 text-base;
+}
+.flag {
+  @apply me-1 self-center;
+}
+.regionImage {
+  @apply m-auto  -mt-5;
+}

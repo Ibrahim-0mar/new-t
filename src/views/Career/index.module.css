@@ -1,0 +1,74 @@
+.header {
+  @apply mb-14 mt-10 flex flex-col items-center;
+}
+.header h1 {
+  @apply text-center text-4xl font-medium text-ninth max-md:text-lg;
+}
+.header p {
+  @apply mt-5 text-base text-primary md:text-lg;
+}
+.header img {
+  @apply max-md:w-[70%];
+}
+.header a {
+  @apply whitespace-nowrap rounded-3xl bg-fifth p-2 text-base font-semibold text-tenth max-md:py-0.5 md:text-lg;
+}
+
+.heading {
+  @apply mb-5 mt-14 w-full text-2xl font-bold text-primary md:text-3xl;
+}
+
+.frameSection {
+  @apply flex w-full flex-col items-center;
+}
+
+.iframe {
+  @apply aspect-video rounded-[14px] max-md:h-auto;
+}
+
+.videoContainer {
+  @apply w-full rounded-[14px] border-[1px];
+}
+.itemContainer {
+  @apply flex gap-3;
+}
+.itemContainer img {
+  @apply max-md:w-[20%];
+}
+.contentContainer {
+  @apply flex flex-col justify-center;
+}
+.contentContainer p {
+  @apply text-base md:text-xl;
+}
+.itemTitle {
+  @apply text-xl font-bold md:text-2xl;
+}
+
+h2.workingAtTravolic {
+  @apply mb-2 text-2xl font-bold text-ninth max-lg:mt-5 md:text-3xl;
+}
+
+p.workingAtTravolic {
+  @apply whitespace-pre-line leading-[1.48] text-primary md:text-xl rtl:text-right;
+}
+
+img.workingAtTravolic {
+  @apply float-end ms-3 w-40 md:w-60;
+}
+
+.travolicTeamContainer {
+  @apply mb-10 mt-20 space-y-10 text-primary max-md:space-y-5;
+}
+.travolicTeamContainer h2 {
+  @apply text-3xl font-semibold max-md:text-lg;
+}
+.joinOurTeamContainer {
+  @apply flex flex-col gap-2 rounded-[18px] bg-[#f1f1f1] px-3 pb-2 pt-5 md:mb-20;
+}
+.joinOurTeamContainer p {
+  @apply text-left text-2xl font-bold text-primary max-md:text-[13px] max-md:leading-6;
+}
+.joinOurTeamContainer a {
+  @apply mr-3 self-end rounded-2xl bg-fifth px-5 py-3 text-sm font-semibold text-tenth max-md:rounded-md max-md:px-3 max-md:py-0 max-md:text-[10px];
+}

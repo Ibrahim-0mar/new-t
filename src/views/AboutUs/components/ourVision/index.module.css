@@ -1,0 +1,21 @@
+.sectionContainer {
+  @apply mt-5 space-y-10 max-lg:space-y-5;
+}
+.heading {
+  @apply w-fit text-2xl font-bold rtl:mr-3;
+}
+.itemContainer {
+  @apply flex gap-4;
+}
+.itemContainer img {
+  @apply max-md:w-[20%];
+}
+.contentContainer {
+  @apply flex flex-col justify-center gap-1;
+}
+.contentContainer p {
+  @apply text-base rtl:text-right;
+}
+.itemTitle {
+  @apply w-fit text-xl font-bold rtl:text-right;
+}

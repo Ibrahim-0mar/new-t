@@ -1,0 +1,22 @@
+.header {
+  @apply my-12 mb-32 flex justify-between rounded-[14px_14px_0_0] border-[2.5px] border-b-0 border-black px-5  shadow-[0px_-2px_0px_2px_#dae13e] max-lg:my-5 max-lg:px-3;
+}
+.header img {
+  @apply relative top-[100px] max-lg:top-[40px] max-lg:w-[50%];
+}
+
+.textContainer {
+  @apply mt-4 flex flex-col justify-center gap-5 max-lg:gap-0;
+}
+
+.textContainer h1 {
+  @apply whitespace-nowrap text-lg font-semibold text-[#003a4f] lg:text-4xl;
+}
+
+.textContainer p {
+  @apply ml-1 text-sm leading-[1.52] text-primary lg:text-2xl;
+}
+
+.accordionsContainer {
+  @apply mt-16 flex flex-col items-center gap-5 text-[#0a425c] lg:mt-40;
+}

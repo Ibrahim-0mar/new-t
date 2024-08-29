@@ -1,0 +1,14 @@
+.container {
+  @apply flex w-full items-center justify-center;
+}
+
+.message {
+  @apply mt-1 text-sm;
+}
+.error {
+  @apply text-red-500;
+}
+
+.success {
+  @apply text-green-500;
+}

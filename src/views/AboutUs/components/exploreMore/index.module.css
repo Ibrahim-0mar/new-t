@@ -1,0 +1,14 @@
+.Container {
+  @apply mt-6 flex w-full flex-col items-center space-y-2;
+}
+.heading {
+  @apply w-full text-center text-2xl font-bold md:text-start md:text-3xl;
+}
+
+.videoContainer {
+  @apply w-full rounded-[14px] border-[1px];
+}
+
+.iframe {
+  @apply aspect-video w-full rounded-[14px] max-lg:h-auto;
+}

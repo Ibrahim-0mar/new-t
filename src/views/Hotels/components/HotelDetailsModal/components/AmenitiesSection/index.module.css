@@ -1,0 +1,18 @@
+.container {
+  @apply flex flex-col  border-twelfth border-opacity-70 mb-16;
+}
+.heading {
+  @apply my-5 text-2xl font-bold;
+}
+.amenities {
+  @apply grid grid-cols-3 gap-4;
+}
+.showAllBtn {
+  @apply my-5 flex w-fit items-center gap-1 rounded-lg px-6 py-0 text-xl font-semibold text-black;
+}
+.amenity {
+  @apply flex items-center gap-3;
+}
+.amenity > span {
+  @apply text-lg font-medium text-black text-opacity-70;
+}
